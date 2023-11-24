@@ -10,13 +10,13 @@
 #SBATCH --nodes=4
 #SBATCH --ntasks-per-node=1
 #SBATCH --gpus-per-node 4
-#SBATCH --time=4-00:00:00
+#SBATCH --time=0-12:00:00
 #SBATCH --mem=64G
 #SBATCH --cpus-per-task=5
 
 
 #Load any modules that your program needs
-module load python
+module load python/gpu/3.10.10
 
 #Run your program
-srun python get_total_weights.py
+srun python main.py

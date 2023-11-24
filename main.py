@@ -1,6 +1,7 @@
 
 
 import numpy
+import loss_landscape_functions
 
 
 tasks = ['PerceptualDecisionMaking-v0','gonogo_variable_delay-v0','ObjectSequenceMemory-v0','OrientedBar-v0'] #'GoNogo-v0',
@@ -16,7 +17,7 @@ np.savez_compressed("four_tasks_all_weights.npz",total_weight_traj = total_weigh
 
 import numpy as np
 
-TWJ = np.load("total_weight_traj2.npz")
+TWJ = np.load("four_tasks_all_weights.npz")
 
 data = TWJ["total_weight_traj"]
 
