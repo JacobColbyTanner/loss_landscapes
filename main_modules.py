@@ -52,14 +52,27 @@ import networkx as nx
 import matplotlib.pyplot as plt
 import numpy as np
 
+ #create modular pruning mask with stochastic block model
+sizes = [25,25,25,25]
+off_block = 0.1
+probs = [[1, off_block,off_block,off_block],[off_block, 1, off_block, off_block],[off_block, off_block, 1, off_block],[off_block, off_block, off_block, 1]]
+g = nx.stochastic_block_model(sizes,probs,directed=True)
+gg = nx.to_numpy_array(g)
+I = np.eye(gg.shape[0])
+gg = gg+I
 
-mask = np.zeros((100,100))
+plt.imshow(gg)
+plt.show()
 
-save_name = "four_tasks_all_weights_no_modules.npz"
+mask = gg
+
+save_name = "four_tasks_all_weights_modules.npz"
 
 total_weight_traj = loss_landscape_functions.get_weight_trajectories(tasks,mask,save_name)
 
 np.savez_compressed(save_name,total_weight_traj = total_weight_traj)
+
+
 
 
 
@@ -85,6 +98,6 @@ import matplotlib.pyplot as plt
 plt.plot(np.absolute(all_corr))
 plt.xlabel("number of iterations")
 plt.ylabel("similarity to other sample (N=500)")
-plt.title("Four tasks no modules")
-plt.savefig("Four_tasks_no_modules.png", dpi=300, format='png', bbox_inches='tight')
+plt.title("Four tasks with modules")
+plt.savefig("Four_tasks_modules.png", dpi=300, format='png', bbox_inches='tight')
 plt.show()

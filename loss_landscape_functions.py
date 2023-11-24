@@ -1,8 +1,12 @@
-#!/usr/bin/env python
-# coding: utf-8
+#!/N/soft/sles15/deeplearning/Python-3.10.10/python
 
-# In[1]:
+'''
+import subprocess
 
+# Load the module from within the Python script
+subprocess.run(['module', 'load', 'python/gpu/3.10.10'], shell=True)
+subprocess.run(['module', 'load', 'python'], shell=True)
+'''
 
 # Define networks
 import torch
@@ -123,19 +127,9 @@ class RNNNet(nn.Module):
 
 
 
-# In[ ]:
 
 
 
-
-
-# In[ ]:
-
-
-
-
-
-# In[2]:
 
 
 # Define networks
@@ -235,8 +229,10 @@ def train_multitask2(tasks,steps,mask,lr,randomize_task_order):
     """
     if torch.cuda.is_available(): 
         dev = "cuda:0" 
+        print(dev)
     else: 
         dev = "cpu" 
+        print(dev)
     device = torch.device(dev) 
    
     # set tasks
@@ -577,37 +573,6 @@ def get_loss(net,tasks):
 
 
 
-
-
-# In[ ]:
-
-
-
-
-
-# In[ ]:
-
-
-
-
-
-# In[6]:
-
-
-import sys 
-
-print(sys.path)
-
-
-# In[ ]:
-
-
-
-
-
-# In[ ]:
-
-
 from sklearn.decomposition import PCA
 import time
 
@@ -704,61 +669,13 @@ def get_loss_landscape(tasks,nbins,ndim,mask,get_specialization):
 
 
 
-
-
-# In[7]:
-
-
-from gym.envs.registration import register
-
-register(id = 'gonogo_variable_delay-v0',entry_point= "neurogym.envs.gonogo_variable_delay:gonogo_variable_delay")
-
-import gym
-
-env = gym.make('gonogo_variable_delay-v0')  # Replace 'YourEnvName-v0' with the ID you used during registration
-
-
-from gym.envs.registration import register
-
-register(id = 'OrientedBar-v0',entry_point= "neurogym.envs.OrientedBar7:OrientedBar7")
-
-import gym
-
-env = gym.make('OrientedBar-v0')  # Replace 'YourEnvName-v0' with the ID you used during registration
-
-
-
-
-from gym.envs.registration import register
-
-register(id = 'VisMotorReaching-v0',entry_point= "neurogym.envs.VisMotorReaching19:VisMotorReaching19")
-
-import gym
-
-env = gym.make('VisMotorReaching-v0')  # Replace 'YourEnvName-v0' with the ID you used during registration
-
-
-
-from gym.envs.registration import register
-
-register(id = 'ObjectSequenceMemory-v0',entry_point= "neurogym.envs.ObjectSequenceMemory24:ObjectSequenceMemory24")
-
-import gym
-
-env = gym.make('ObjectSequenceMemory-v0')  # Replace 'YourEnvName-v0' with the ID you used during registration
-
-
-
-# In[11]:
-
-
 from sklearn.decomposition import PCA
 import time
-import scipy.io as sio
+#import scipy.io as sio
 
-def get_weight_trajectories(tasks,mask):
+def get_weight_trajectories(tasks,mask, save_name):
     
-    iterations = 1000
+    iterations = 2000
     steps = 100
     #mask = np.ones((100,100))
     randomize_task_order = 1
@@ -777,7 +694,7 @@ def get_weight_trajectories(tasks,mask):
             total_weight_traj = np.append(total_weight_traj, weight_traj, axis=0)
         
         if (iterr+1)%100 == 0:
-            np.savez_compressed("four_tasks_all_weights.npz",total_weight_traj = total_weight_traj)
+            np.savez_compressed(save_name,total_weight_traj = total_weight_traj)
         
         print("time: ",time.time() - start_time)
         #mdic = {"total_weight_traj": total_weight_traj}
