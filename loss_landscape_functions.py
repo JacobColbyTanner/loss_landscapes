@@ -233,7 +233,11 @@ def train_multitask2(tasks,steps,mask,lr,randomize_task_order):
     Returns:
         net: network object after training
     """
-   
+    if torch.cuda.is_available(): 
+        dev = "cuda:0" 
+    else: 
+        dev = "cpu" 
+    device = torch.device(dev) 
    
     # set tasks
     dt = 100
@@ -271,9 +275,11 @@ def train_multitask2(tasks,steps,mask,lr,randomize_task_order):
    
     net = RNNNet(input_size=input_size, hidden_size=hidden_size,
              output_size=output_size, dt=dt)
+             
+    net.to(device)
    
         #apply pruning mask
-    mask = torch.from_numpy(mask)
+    mask = torch.from_numpy(mask).to(device)
     apply = prune.custom_from_mask(net.rnn.h2h, name = "weight", mask = mask)
    
     # Use Adam optimizer
