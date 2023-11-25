@@ -149,12 +149,12 @@ import matplotlib.pyplot as plt
 
 
 def weight_shape_to_flat(net):
-    weight_trajectory = net.rnn.input2h.weight.detach().numpy()
-    weight_trajectory = np.append(weight_trajectory,net.rnn.input2h.bias.detach().numpy())
-    weight_trajectory = np.append(weight_trajectory,net.rnn.h2h.weight_orig.detach().numpy())
-    weight_trajectory = np.append(weight_trajectory,net.rnn.h2h.bias.detach().numpy())
-    weight_trajectory = np.append(weight_trajectory,net.fc.weight.detach().numpy())
-    weight_trajectory = np.append(weight_trajectory,net.fc.bias.detach().numpy())
+    weight_trajectory = net.rnn.input2h.weight.cpu().detach().numpy()
+    weight_trajectory = np.append(weight_trajectory,net.rnn.input2h.bias.cpu().detach().numpy())
+    weight_trajectory = np.append(weight_trajectory,net.rnn.h2h.weight_orig.cpu().detach().numpy())
+    weight_trajectory = np.append(weight_trajectory,net.rnn.h2h.bias.cpu().detach().numpy())
+    weight_trajectory = np.append(weight_trajectory,net.fc.weight.cpu().detach().numpy())
+    weight_trajectory = np.append(weight_trajectory,net.fc.bias.cpu().detach().numpy())
     
     return weight_trajectory
 
@@ -162,20 +162,20 @@ def weight_shape_to_flat(net):
 
 def weight_flat_to_shape(net,weight):
     weight_shapes = []
-    weight_shapes.append(net.rnn.input2h.weight.detach().numpy().shape)
-    weight_shapes.append(net.rnn.input2h.bias.detach().numpy().shape)
-    weight_shapes.append(net.rnn.h2h.weight_orig.detach().numpy().shape)
-    weight_shapes.append(net.rnn.h2h.bias.detach().numpy().shape)
-    weight_shapes.append(net.fc.weight.detach().numpy().shape)
-    weight_shapes.append(net.fc.bias.detach().numpy().shape)
+    weight_shapes.append(net.rnn.input2h.weight.cpu().detach().numpy().shape)
+    weight_shapes.append(net.rnn.input2h.bias.cpu().detach().numpy().shape)
+    weight_shapes.append(net.rnn.h2h.weight_orig.cpu().detach().numpy().shape)
+    weight_shapes.append(net.rnn.h2h.bias.cpu().detach().numpy().shape)
+    weight_shapes.append(net.fc.weight.cpu().detach().numpy().shape)
+    weight_shapes.append(net.fc.bias.cpu().detach().numpy().shape)
     
     all_weights = []
-    all_weights.append(net.rnn.input2h.weight.detach().numpy())
-    all_weights.append(net.rnn.input2h.bias.detach().numpy())
-    all_weights.append(net.rnn.h2h.weight_orig.detach().numpy())
-    all_weights.append(net.rnn.h2h.bias.detach().numpy())
-    all_weights.append(net.fc.weight.detach().numpy())
-    all_weights.append(net.fc.bias.detach().numpy())
+    all_weights.append(net.rnn.input2h.weight.cpu().detach().numpy())
+    all_weights.append(net.rnn.input2h.bias.cpu().detach().numpy())
+    all_weights.append(net.rnn.h2h.weight_orig.cpu().detach().numpy())
+    all_weights.append(net.rnn.h2h.bias.cpu().detach().numpy())
+    all_weights.append(net.fc.weight.cpu().detach().numpy())
+    all_weights.append(net.fc.bias.cpu().detach().numpy())
     
     
     total = np.prod(weight_shapes[0])
@@ -235,6 +235,9 @@ def train_multitask2(tasks,steps,mask,lr,randomize_task_order):
         print(dev)
     device = torch.device(dev) 
    
+
+    
+
     # set tasks
     dt = 100
     #tasks = ["SineWavePred-v0","GoNogo-v0","PerceptualDecisionMaking-v0"]
@@ -288,12 +291,12 @@ def train_multitask2(tasks,steps,mask,lr,randomize_task_order):
     # Loop over training batches
     #print('Training network...')
     num_param = 0
-    num_param += net.rnn.input2h.weight.detach().numpy().size
-    num_param += net.rnn.input2h.bias.detach().numpy().size
-    num_param += net.rnn.h2h.weight.detach().numpy().size
-    num_param += net.rnn.h2h.bias.detach().numpy().size
-    num_param += net.fc.weight.detach().numpy().size
-    num_param += net.fc.bias.detach().numpy().size
+    num_param += net.rnn.input2h.weight.cpu().detach().numpy().size
+    num_param += net.rnn.input2h.bias.cpu().detach().numpy().size
+    num_param += net.rnn.h2h.weight.cpu().detach().numpy().size
+    num_param += net.rnn.h2h.bias.cpu().detach().numpy().size
+    num_param += net.fc.weight.cpu().detach().numpy().size
+    num_param += net.fc.bias.cpu().detach().numpy().size
 
    
     loss_trajectory = np.zeros([steps])
