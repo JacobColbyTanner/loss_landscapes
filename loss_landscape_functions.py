@@ -402,7 +402,7 @@ def train_multitask2(tasks,steps,mask,lr,randomize_task_order):
                     inputs = np.concatenate((inputs,inputs1[task]), axis=0)
 
            
-        inputs = torch.from_numpy(inputs).type(torch.float)
+        inputs = torch.from_numpy(inputs).type(torch.float).to(device)
        
        
 

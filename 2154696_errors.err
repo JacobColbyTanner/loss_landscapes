@@ -1,0 +1,102 @@
+/geode2/home/u040/jctanner/BigRed200/loss_landscapes/gym/utils/passive_env_checker.py:195: UserWarning: [33mWARN: The result returned by `env.reset()` was not a tuple of the form `(obs, info)`, where `obs` is a observation and `info` is a dictionary containing additional information. Actual type: `<class 'numpy.ndarray'>`[0m
+  logger.warn(
+/geode2/home/u040/jctanner/BigRed200/loss_landscapes/gym/utils/passive_env_checker.py:195: UserWarning: [33mWARN: The result returned by `env.reset()` was not a tuple of the form `(obs, info)`, where `obs` is a observation and `info` is a dictionary containing additional information. Actual type: `<class 'numpy.ndarray'>`[0m
+  logger.warn(
+/geode2/home/u040/jctanner/BigRed200/loss_landscapes/gym/utils/passive_env_checker.py:195: UserWarning: [33mWARN: The result returned by `env.reset()` was not a tuple of the form `(obs, info)`, where `obs` is a observation and `info` is a dictionary containing additional information. Actual type: `<class 'numpy.ndarray'>`[0m
+  logger.warn(
+/geode2/home/u040/jctanner/BigRed200/loss_landscapes/gym/utils/passive_env_checker.py:195: UserWarning: [33mWARN: The result returned by `env.reset()` was not a tuple of the form `(obs, info)`, where `obs` is a observation and `info` is a dictionary containing additional information. Actual type: `<class 'numpy.ndarray'>`[0m
+  logger.warn(
+Traceback (most recent call last):
+  File "/geode2/home/u040/jctanner/BigRed200/loss_landscapes/main.py", line 60, in <module>
+    total_weight_traj = loss_landscape_functions.get_weight_trajectories(tasks,mask,save_name)
+  File "/geode2/home/u040/jctanner/BigRed200/loss_landscapes/loss_landscape_functions.py", line 692, in get_weight_trajectories
+    net, loss_traj, weight_traj = train_multitask2(tasks,steps,mask,lr,randomize_task_order)
+  File "/geode2/home/u040/jctanner/BigRed200/loss_landscapes/loss_landscape_functions.py", line 414, in train_multitask2
+    output, _ = net(inputs)
+  File "/N/soft/sles15/deeplearning/Python-3.10.10/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1501, in _call_impl
+Traceback (most recent call last):
+  File "/geode2/home/u040/jctanner/BigRed200/loss_landscapes/main.py", line 60, in <module>
+    total_weight_traj = loss_landscape_functions.get_weight_trajectories(tasks,mask,save_name)
+  File "/geode2/home/u040/jctanner/BigRed200/loss_landscapes/loss_landscape_functions.py", line 692, in get_weight_trajectories
+    return forward_call(*args, **kwargs)
+  File "/geode2/home/u040/jctanner/BigRed200/loss_landscapes/loss_landscape_functions.py", line 119, in forward
+    net, loss_traj, weight_traj = train_multitask2(tasks,steps,mask,lr,randomize_task_order)
+  File "/geode2/home/u040/jctanner/BigRed200/loss_landscapes/loss_landscape_functions.py", line 414, in train_multitask2
+    rnn_output, hidden, input_projection = self.rnn(x)
+  File "/N/soft/sles15/deeplearning/Python-3.10.10/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1501, in _call_impl
+    output, _ = net(inputs)
+  File "/N/soft/sles15/deeplearning/Python-3.10.10/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1501, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/geode2/home/u040/jctanner/BigRed200/loss_landscapes/loss_landscape_functions.py", line 83, in forward
+    return forward_call(*args, **kwargs)
+  File "/geode2/home/u040/jctanner/BigRed200/loss_landscapes/loss_landscape_functions.py", line 119, in forward
+    hidden = self.recurrence(input[i], hidden)
+  File "/geode2/home/u040/jctanner/BigRed200/loss_landscapes/loss_landscape_functions.py", line 67, in recurrence
+    rnn_output, hidden, input_projection = self.rnn(x)
+  File "/N/soft/sles15/deeplearning/Python-3.10.10/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1501, in _call_impl
+Traceback (most recent call last):
+  File "/geode2/home/u040/jctanner/BigRed200/loss_landscapes/main.py", line 60, in <module>
+    h_new = torch.relu(self.input2h(input) + self.h2h(hidden))
+  File "/N/soft/sles15/deeplearning/Python-3.10.10/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1501, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/geode2/home/u040/jctanner/BigRed200/loss_landscapes/loss_landscape_functions.py", line 83, in forward
+    total_weight_traj = loss_landscape_functions.get_weight_trajectories(tasks,mask,save_name)
+  File "/geode2/home/u040/jctanner/BigRed200/loss_landscapes/loss_landscape_functions.py", line 692, in get_weight_trajectories
+    return forward_call(*args, **kwargs)
+  File "/N/soft/sles15/deeplearning/Python-3.10.10/lib/python3.10/site-packages/torch/nn/modules/linear.py", line 114, in forward
+    hidden = self.recurrence(input[i], hidden)
+  File "/geode2/home/u040/jctanner/BigRed200/loss_landscapes/loss_landscape_functions.py", line 67, in recurrence
+    net, loss_traj, weight_traj = train_multitask2(tasks,steps,mask,lr,randomize_task_order)
+  File "/geode2/home/u040/jctanner/BigRed200/loss_landscapes/loss_landscape_functions.py", line 414, in train_multitask2
+    return F.linear(input, self.weight, self.bias)
+RuntimeError: Expected all tensors to be on the same device, but found at least two devices, cuda:0 and cpu! (when checking argument for argument mat1 in method wrapper_CUDA_addmm)
+    h_new = torch.relu(self.input2h(input) + self.h2h(hidden))
+  File "/N/soft/sles15/deeplearning/Python-3.10.10/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1501, in _call_impl
+    output, _ = net(inputs)
+  File "/N/soft/sles15/deeplearning/Python-3.10.10/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1501, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/N/soft/sles15/deeplearning/Python-3.10.10/lib/python3.10/site-packages/torch/nn/modules/linear.py", line 114, in forward
+    return forward_call(*args, **kwargs)
+  File "/geode2/home/u040/jctanner/BigRed200/loss_landscapes/loss_landscape_functions.py", line 119, in forward
+    return F.linear(input, self.weight, self.bias)
+    rnn_output, hidden, input_projection = self.rnn(x)
+  File "/N/soft/sles15/deeplearning/Python-3.10.10/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1501, in _call_impl
+RuntimeError: Expected all tensors to be on the same device, but found at least two devices, cuda:0 and cpu! (when checking argument for argument mat1 in method wrapper_CUDA_addmm)
+    return forward_call(*args, **kwargs)
+  File "/geode2/home/u040/jctanner/BigRed200/loss_landscapes/loss_landscape_functions.py", line 83, in forward
+    hidden = self.recurrence(input[i], hidden)
+  File "/geode2/home/u040/jctanner/BigRed200/loss_landscapes/loss_landscape_functions.py", line 67, in recurrence
+    h_new = torch.relu(self.input2h(input) + self.h2h(hidden))
+  File "/N/soft/sles15/deeplearning/Python-3.10.10/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1501, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/N/soft/sles15/deeplearning/Python-3.10.10/lib/python3.10/site-packages/torch/nn/modules/linear.py", line 114, in forward
+Traceback (most recent call last):
+  File "/geode2/home/u040/jctanner/BigRed200/loss_landscapes/main.py", line 60, in <module>
+    return F.linear(input, self.weight, self.bias)
+RuntimeError: Expected all tensors to be on the same device, but found at least two devices, cuda:0 and cpu! (when checking argument for argument mat1 in method wrapper_CUDA_addmm)
+    total_weight_traj = loss_landscape_functions.get_weight_trajectories(tasks,mask,save_name)
+  File "/geode2/home/u040/jctanner/BigRed200/loss_landscapes/loss_landscape_functions.py", line 692, in get_weight_trajectories
+    net, loss_traj, weight_traj = train_multitask2(tasks,steps,mask,lr,randomize_task_order)
+  File "/geode2/home/u040/jctanner/BigRed200/loss_landscapes/loss_landscape_functions.py", line 414, in train_multitask2
+    output, _ = net(inputs)
+  File "/N/soft/sles15/deeplearning/Python-3.10.10/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1501, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/geode2/home/u040/jctanner/BigRed200/loss_landscapes/loss_landscape_functions.py", line 119, in forward
+    rnn_output, hidden, input_projection = self.rnn(x)
+  File "/N/soft/sles15/deeplearning/Python-3.10.10/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1501, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/geode2/home/u040/jctanner/BigRed200/loss_landscapes/loss_landscape_functions.py", line 83, in forward
+    hidden = self.recurrence(input[i], hidden)
+  File "/geode2/home/u040/jctanner/BigRed200/loss_landscapes/loss_landscape_functions.py", line 67, in recurrence
+    h_new = torch.relu(self.input2h(input) + self.h2h(hidden))
+  File "/N/soft/sles15/deeplearning/Python-3.10.10/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1501, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/N/soft/sles15/deeplearning/Python-3.10.10/lib/python3.10/site-packages/torch/nn/modules/linear.py", line 114, in forward
+    return F.linear(input, self.weight, self.bias)
+RuntimeError: Expected all tensors to be on the same device, but found at least two devices, cuda:0 and cpu! (when checking argument for argument mat1 in method wrapper_CUDA_addmm)
+srun: error: nid0654: task 1: Exited with exit code 1
+srun: launch/slurm: _step_signal: Terminating StepId=2154696.0
+slurmstepd: error: *** STEP 2154696.0 ON nid0641 CANCELLED AT 2023-11-26T10:21:14 ***
+srun: error: nid0687: task 2: Exited with exit code 1
+srun: error: nid0641: task 0: Exited with exit code 1
+srun: error: nid0697: task 3: Exited with exit code 1
