@@ -55,7 +55,7 @@ import numpy as np
 
 mask = np.zeros((100,100))
 
-save_name = "four_tasks_all_weights_no_modules.npz"
+save_name = "/N/project/networkRNNs/loss_lndscape_data/four_tasks_all_weights_no_modules.npz"
 
 total_weight_traj = loss_landscape_functions.get_weight_trajectories(tasks,mask,save_name)
 

@@ -37,7 +37,7 @@ import numpy as np
 
 tasks = ["GoNogo-v0","PerceptualDecisionMaking-v0"]
 mask = np.load("data/RC_network.npy")
-save_name = "integration_task_with_RC.npz"
+save_name = "/N/project/networkRNNs/loss_lndscape_data/integration_task_with_RC.npz"
 
 total_weight_traj = get_weight_trajectories(tasks,mask, save_name)
 

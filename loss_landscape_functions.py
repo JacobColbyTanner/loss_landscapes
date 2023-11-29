@@ -437,6 +437,10 @@ def train_multitask2(tasks,steps,mask,lr,randomize_task_order):
 
 
 
+
+
+
+
 def train_simultaneous_integration(tasks,steps,mask,lr):
     #total possible tasks is 14 with this function
     """function to train the model on multiple tasks.
@@ -847,7 +851,7 @@ import time
 
 def get_weight_trajectories(tasks,mask, save_name):
     
-    iterations = 2000
+    iterations = 1000
     steps = 100
     #mask = np.ones((100,100))
     randomize_task_order = 1
