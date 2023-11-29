@@ -9,7 +9,7 @@ steps = 1000
 lr = 0.001
 tasks = ["GoNogo-v0","PerceptualDecisionMaking-v0"]
 mask_RC = np.load("data/RC_network.npy")
-mask_no_RC = np.load("data/RC_network.npy")
+mask_no_RC = np.load("data/no_RC_network.npy")
 
 loss_RC = []
 loss_no_RC = []
