@@ -360,7 +360,7 @@ def train_multitask2(tasks,steps,mask,lr,randomize_task_order):
 
 
        
-        labels = torch.from_numpy(labels.flatten()).type(torch.long)
+        labels = torch.from_numpy(labels.flatten()).type(torch.long).to(device)
         #plt.hist(labels)
         #plt.show()
    
@@ -413,6 +413,174 @@ def train_multitask2(tasks,steps,mask,lr,randomize_task_order):
         optimizer.zero_grad()   # zero the gradient buffers
         output, _ = net(inputs)
         # Reshape to (SeqLen x Batch, OutputSize)
+        output = output.view(-1, output_size).to(device)
+       
+        #print("output shape: " + str(output.shape))
+        #print("labels shape: " + str(labels.shape))
+       
+        
+        loss = criterion(output, labels)
+        
+        loss.backward()
+        optimizer.step()    # Does the update
+
+        loss_trajectory[i] = loss.item()
+       
+        # Compute the running loss every 100 steps
+        running_loss += loss.item()
+        if i % 100 == 99:
+            running_loss /= 100
+            print('Step {}, Loss {:0.4f}, Time {:0.1f}s'.format(
+                i+1, running_loss, time.time() - start_time))
+            running_loss = 0
+    return net, loss_trajectory, weight_trajectory
+
+
+
+def train_simultaneous_integration(tasks,steps,mask,lr):
+    #total possible tasks is 14 with this function
+    """function to train the model on multiple tasks.
+   
+    Args:
+        net: a pytorch nn.Module module
+        dataset: a dataset object that when called produce a (input, target output) pair
+   
+    Returns:
+        net: network object after training
+    """
+   
+    if torch.cuda.is_available(): 
+        dev = "cuda:0" 
+        print(dev)
+    else: 
+        dev = "cpu" 
+        print(dev)
+    device = torch.device(dev) 
+    # set tasks
+    dt = 100
+    #tasks = ["SineWavePred-v0","GoNogo-v0","PerceptualDecisionMaking-v0"]
+    
+    #tasks = ["GoNogo-v0","PerceptualDecisionMaking-v0"]
+    num_tasks = len(tasks)
+    kwargs = {'dt': dt}
+    seq_len = 100
+
+    # Make supervised datasets
+    i1 = np.zeros([num_tasks])
+    o1 = np.zeros([num_tasks])
+    dataset1 = {}
+    for task in range(num_tasks):
+      
+        dataset1[task] = ngym.Dataset(tasks[task], env_kwargs=kwargs, batch_size=16,
+                       seq_len=seq_len)
+       
+                   #get input and output sizes for different tasks
+        env = dataset1[task].env
+        i1[task] = env.observation_space.shape[0]
+        try:
+            o1[task] = int(env.action_space.n)
+        except:
+            o1[task] = int(env.action_space.shape[0])
+
+
+    input_size = int(np.sum(i1))
+    #to create a tensor object that is AxBxCxD.. etc
+    output_size = int(np.prod(o1))
+    hidden_size = mask.shape[0]
+   
+   
+    net = RNNNet(input_size=input_size, hidden_size=hidden_size,
+             output_size=output_size, dt=dt)
+   
+    net.to(device)
+        #apply pruning mask
+    mask = torch.from_numpy(mask).to(device)
+    apply = prune.custom_from_mask(net.rnn.h2h, name = "weight", mask = mask)
+   
+    # Use Adam optimizer
+    optimizer = optim.Adam(net.parameters(), lr=lr)
+    criterion = nn.CrossEntropyLoss()
+    
+    
+    start_time = time.time()
+
+
+
+    num_param = 0
+    num_param += net.rnn.input2h.weight.cpu().detach().numpy().size
+    num_param += net.rnn.input2h.bias.cpu().detach().numpy().size
+    num_param += net.rnn.h2h.weight.cpu().detach().numpy().size
+    num_param += net.rnn.h2h.bias.cpu().detach().numpy().size
+    num_param += net.fc.weight.cpu().detach().numpy().size
+    num_param += net.fc.bias.cpu().detach().numpy().size
+
+   
+    loss_trajectory = np.zeros([steps])
+    weight_trajectory = np.zeros((steps+1,num_param))
+    running_loss = 0
+    for i in range(steps):
+        # Generate input and target(labels) for all tasks, then concatenate and convert to pytorch tensor
+        weight_trajectory[i,:] = weight_shape_to_flat(net)
+        
+        
+        timing = {
+            'fixation': 100,
+            'stimulus': 2000,
+            'delay': np.random.randint(200,high=600),
+            'decision': 100}
+        kwargs = {'dt': dt, 'timing':timing}
+        
+        for task in range(num_tasks):
+            dataset1[task] = ngym.Dataset(tasks[task], env_kwargs=kwargs, batch_size=16,
+                       seq_len=seq_len)
+            data = dataset1[task]
+            inputs1, labels1 = data()
+            
+            if task == 0:
+                inputs = inputs1
+            else:
+                inputs = np.concatenate((inputs,inputs1), axis=2)
+                
+            if task == 0:
+                labels = labels1
+                labels = np.expand_dims(labels, axis=2)
+            else:
+                labels1 = np.expand_dims(labels1, axis=2)
+                labels = np.concatenate((labels,labels1), axis=2)
+            
+                
+        inputs = torch.from_numpy(inputs).type(torch.float).to(device)
+        
+        
+        new_labels = np.zeros(labels1.shape)
+        for ii in range(labels.shape[0]):
+            for batch in range(labels.shape[1]):
+                L = labels[ii,batch,:]
+                
+                
+
+                label_tensor = np.zeros(tuple(o1.astype(int)))
+                label_tensor[tuple(L)] = 1
+                
+                label_tensor = label_tensor.flatten()
+                ind = np.nonzero(label_tensor)
+                new_labels[ii,batch] = ind[0]
+            
+            
+        labels = torch.from_numpy(new_labels.flatten()).type(torch.long).to(device)
+
+        #for task in range(num_tasks):
+            
+
+        #plt.plot(labels)
+        #plt.show()
+        
+       
+       
+        # boiler plate pytorch training:
+        optimizer.zero_grad()   # zero the gradient buffers
+        output, _ = net(inputs)
+        # Reshape to (SeqLen x Batch, OutputSize)
         output = output.view(-1, output_size)
        
         #print("output shape: " + str(output.shape))
@@ -433,6 +601,7 @@ def train_multitask2(tasks,steps,mask,lr,randomize_task_order):
             print('Step {}, Loss {:0.4f}, Time {:0.1f}s'.format(
                 i+1, running_loss, time.time() - start_time))
             running_loss = 0
+            
     return net, loss_trajectory, weight_trajectory
 
 
