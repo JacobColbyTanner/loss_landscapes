@@ -1,8 +1,0 @@
-iterations:  0
-cuda:0
-iterations:  0
-cuda:0
-iterations:  0
-cuda:0
-iterations:  0
-cuda:0
