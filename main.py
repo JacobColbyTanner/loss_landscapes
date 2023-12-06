@@ -53,7 +53,7 @@ import matplotlib.pyplot as plt
 import numpy as np
 
 
-mask = np.zeros((100,100))
+mask = np.ones((100,100))
 
 save_name = "/N/project/networkRNNs/loss_lndscape_data/four_tasks_all_weights_no_modules.npz"
 

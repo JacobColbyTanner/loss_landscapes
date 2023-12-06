@@ -851,7 +851,7 @@ import time
 
 def get_weight_trajectories(tasks,mask, save_name):
     
-    iterations = 1000
+    iterations = 800
     steps = 100
     #mask = np.ones((100,100))
     randomize_task_order = 1
