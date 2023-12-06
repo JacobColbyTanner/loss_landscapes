@@ -1,0 +1,29 @@
+/geode2/home/u040/jctanner/BigRed200/loss_landscapes/gym/utils/passive_env_checker.py:195: UserWarning: [33mWARN: The result returned by `env.reset()` was not a tuple of the form `(obs, info)`, where `obs` is a observation and `info` is a dictionary containing additional information. Actual type: `<class 'numpy.ndarray'>`[0m
+  logger.warn(
+/geode2/home/u040/jctanner/BigRed200/loss_landscapes/gym/utils/passive_env_checker.py:195: UserWarning: [33mWARN: The result returned by `env.reset()` was not a tuple of the form `(obs, info)`, where `obs` is a observation and `info` is a dictionary containing additional information. Actual type: `<class 'numpy.ndarray'>`[0m
+  logger.warn(
+/geode2/home/u040/jctanner/BigRed200/loss_landscapes/gym/utils/passive_env_checker.py:195: UserWarning: [33mWARN: The result returned by `env.reset()` was not a tuple of the form `(obs, info)`, where `obs` is a observation and `info` is a dictionary containing additional information. Actual type: `<class 'numpy.ndarray'>`[0m
+  logger.warn(
+/geode2/home/u040/jctanner/BigRed200/loss_landscapes/gym/utils/passive_env_checker.py:195: UserWarning: [33mWARN: The result returned by `env.reset()` was not a tuple of the form `(obs, info)`, where `obs` is a observation and `info` is a dictionary containing additional information. Actual type: `<class 'numpy.ndarray'>`[0m
+  logger.warn(
+Traceback (most recent call last):
+  File "/geode2/home/u040/jctanner/BigRed200/loss_landscapes/main_modules.py", line 83, in <module>
+    data = TWJ["total_weight_traj"]
+  File "/N/soft/sles15/deeplearning/Python-3.10.10/lib/python3.10/site-packages/numpy/lib/npyio.py", line 253, in __getitem__
+    return format.read_array(bytes,
+  File "/N/soft/sles15/deeplearning/Python-3.10.10/lib/python3.10/site-packages/numpy/lib/format.py", line 812, in read_array
+    data = _read_bytes(fp, read_size, "array data")
+  File "/N/soft/sles15/deeplearning/Python-3.10.10/lib/python3.10/site-packages/numpy/lib/format.py", line 947, in _read_bytes
+    r = fp.read(size - len(data))
+  File "/N/soft/sles15/deeplearning/Python-3.10.10/Lib/zipfile.py", line 925, in read
+    data = self._read1(n)
+  File "/N/soft/sles15/deeplearning/Python-3.10.10/Lib/zipfile.py", line 1001, in _read1
+    data = self._decompressor.decompress(data, n)
+zlib.error: Error -3 while decompressing data: invalid distance code
+srun: error: nid0036: task 3: Exited with exit code 1
+srun: launch/slurm: _step_signal: Terminating StepId=2215884.0
+slurmstepd: error: *** STEP 2215884.0 ON nid0033 CANCELLED AT 2023-12-06T14:51:07 ***
+srun: error: nid0034: task 1: Terminated
+srun: error: nid0035: task 2: Terminated
+srun: error: nid0033: task 0: Terminated
+srun: Force Terminated StepId=2215884.0
