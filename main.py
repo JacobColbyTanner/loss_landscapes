@@ -52,12 +52,47 @@ import networkx as nx
 import matplotlib.pyplot as plt
 import numpy as np
 
+from sklearn.decomposition import PCA
+import time
+#import scipy.io as sio
 
-mask = np.ones((100,100))
+def get_weight_trajectories(tasks,mask, save_name):
+    
+    iterations = 700
+    steps = 100
+    #mask = np.ones((100,100))
+    randomize_task_order = 1
+    lr = 0.001
+    #hidden_size = 100
+    
+    #sample_weights
+    for iterr in range(iterations):
+        print("iterations: ", iterr)
+        start_time = time.time()
+        net, loss_traj, weight_traj = loss_landscape_functions.train_multitask2(tasks,steps,mask,lr,randomize_task_order)
 
-save_name = "/N/project/networkRNNs/loss_lndscape_data/four_tasks_all_weights_no_modules.npz"
+        if iterr == 0:
+            total_weight_traj = weight_traj
+        else:
+            total_weight_traj = np.append(total_weight_traj, weight_traj, axis=0)
+        
+        #if (iterr+1)%100 == 0:
+            #np.savez_compressed(save_name,total_weight_traj = total_weight_traj)
+        
+        print("time: ",time.time() - start_time)
+        #mdic = {"total_weight_traj": total_weight_traj}
 
-total_weight_traj = loss_landscape_functions.get_weight_trajectories(tasks,mask,save_name)
+        #sio.savemat("total_weight_traj.mat", mdic)
+
+    return total_weight_traj
+
+
+
+mask = np.ones((80,80))
+
+save_name = "/N/project/networkRNNs/loss_lndscape_data/four_tasks_no_modules.npz"
+
+total_weight_traj = get_weight_trajectories(tasks,mask,save_name)
 
 np.savez_compressed(save_name,total_weight_traj = total_weight_traj)
 
