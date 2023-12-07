@@ -851,7 +851,7 @@ import time
 
 def get_weight_trajectories(tasks,mask, save_name):
     
-    iterations = 800
+    iterations = 700
     steps = 100
     #mask = np.ones((100,100))
     randomize_task_order = 1
@@ -869,8 +869,8 @@ def get_weight_trajectories(tasks,mask, save_name):
         else:
             total_weight_traj = np.append(total_weight_traj, weight_traj, axis=0)
         
-        if (iterr+1)%100 == 0:
-            np.savez_compressed(save_name,total_weight_traj = total_weight_traj)
+        #if (iterr+1)%100 == 0:
+            #np.savez_compressed(save_name,total_weight_traj = total_weight_traj)
         
         print("time: ",time.time() - start_time)
         #mdic = {"total_weight_traj": total_weight_traj}
