@@ -102,7 +102,7 @@ plt.show()
 
 mask = gg
 
-save_name = "/N/project/networkRNNs/loss_lndscape_data/four_tasks_modules.npz"
+save_name = "/N/project/networkRNNs/loss_lndscape_data/four_tasks_modules2.npz"
 
 total_weight_traj = get_weight_trajectories(tasks,mask,save_name)
 

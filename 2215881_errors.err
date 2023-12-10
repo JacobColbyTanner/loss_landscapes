@@ -6,10 +6,3 @@
   logger.warn(
 /geode2/home/u040/jctanner/BigRed200/loss_landscapes/gym/utils/passive_env_checker.py:195: UserWarning: [33mWARN: The result returned by `env.reset()` was not a tuple of the form `(obs, info)`, where `obs` is a observation and `info` is a dictionary containing additional information. Actual type: `<class 'numpy.ndarray'>`[0m
   logger.warn(
-srun: Job step aborted: Waiting up to 32 seconds for job step to finish.
-srun: error: nid0082: task 1: Terminated
-srun: launch/slurm: _step_signal: Terminating StepId=2219404.0
-srun: error: nid0084: task 3: Terminated
-slurmstepd: error: *** STEP 2219404.0 ON nid0081 CANCELLED AT 2023-12-07T10:43:50 ***
-slurmstepd: error: *** JOB 2219404 ON nid0081 CANCELLED AT 2023-12-07T10:43:50 ***
-srun: error: nid0083: task 2: Terminated

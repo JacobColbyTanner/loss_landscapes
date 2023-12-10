@@ -1,0 +1,2800 @@
+iterations:  0
+cpu
+Step 100, Loss 0.7266, Time 16.1s
+time:  16.74146270751953
+iterations:  1
+cpu
+Step 100, Loss 1.7585, Time 15.8s
+time:  16.203875064849854
+iterations:  2
+cpu
+Step 100, Loss 0.6907, Time 15.8s
+time:  16.19002103805542
+iterations:  3
+cpu
+Step 100, Loss 0.8641, Time 15.9s
+time:  16.246558666229248
+iterations:  4
+cpu
+Step 100, Loss 0.7980, Time 15.8s
+time:  16.22846007347107
+iterations:  5
+cpu
+Step 100, Loss 0.8070, Time 16.0s
+time:  16.42026662826538
+iterations:  6
+cpu
+Step 100, Loss 0.7407, Time 15.8s
+time:  16.141735553741455
+iterations:  7
+cpu
+Step 100, Loss 0.7549, Time 15.7s
+time:  16.125152111053467
+iterations:  8
+cpu
+Step 100, Loss 0.8088, Time 15.8s
+time:  16.221993446350098
+iterations:  9
+cpu
+Step 100, Loss 0.7296, Time 16.0s
+time:  16.373565196990967
+iterations:  10
+cpu
+Step 100, Loss 0.9250, Time 15.9s
+time:  16.28860902786255
+iterations:  11
+cpu
+Step 100, Loss 0.7221, Time 15.9s
+time:  16.23787832260132
+iterations:  12
+cpu
+Step 100, Loss 0.7694, Time 15.9s
+time:  16.253815174102783
+iterations:  13
+cpu
+Step 100, Loss 0.6979, Time 15.9s
+time:  16.261911392211914
+iterations:  14
+cpu
+Step 100, Loss 0.8116, Time 15.9s
+time:  16.261433124542236
+iterations:  15
+cpu
+Step 100, Loss 0.8040, Time 15.7s
+time:  16.120102882385254
+iterations:  16
+cpu
+Step 100, Loss 0.7307, Time 15.7s
+time:  16.134406805038452
+iterations:  17
+cpu
+Step 100, Loss 0.6755, Time 15.8s
+time:  16.16194796562195
+iterations:  18
+cpu
+Step 100, Loss 0.7998, Time 15.9s
+time:  16.33632493019104
+iterations:  19
+cpu
+Step 100, Loss 0.7282, Time 15.8s
+time:  16.24467372894287
+iterations:  20
+cpu
+Step 100, Loss 0.7262, Time 15.9s
+time:  16.31167483329773
+iterations:  21
+cpu
+Step 100, Loss 0.8090, Time 15.8s
+time:  16.23238182067871
+iterations:  22
+cpu
+Step 100, Loss 0.8524, Time 15.8s
+time:  16.177407264709473
+iterations:  23
+cpu
+Step 100, Loss 0.8107, Time 15.9s
+time:  16.271695375442505
+iterations:  24
+cpu
+Step 100, Loss 0.8258, Time 15.8s
+time:  16.241148471832275
+iterations:  25
+cpu
+Step 100, Loss 0.7229, Time 15.7s
+time:  16.150126457214355
+iterations:  26
+cpu
+Step 100, Loss 0.7888, Time 15.9s
+time:  16.283825635910034
+iterations:  27
+cpu
+Step 100, Loss 0.7665, Time 15.8s
+time:  16.24197268486023
+iterations:  28
+cpu
+Step 100, Loss 0.7182, Time 16.0s
+time:  16.383055925369263
+iterations:  29
+cpu
+Step 100, Loss 0.7304, Time 15.7s
+time:  16.121328115463257
+iterations:  30
+cpu
+Step 100, Loss 0.7119, Time 15.7s
+time:  16.147559642791748
+iterations:  31
+cpu
+Step 100, Loss 1.1471, Time 15.7s
+time:  16.12972140312195
+iterations:  32
+cpu
+Step 100, Loss 0.7256, Time 15.8s
+time:  16.210821390151978
+iterations:  33
+cpu
+Step 100, Loss 0.7222, Time 15.8s
+time:  16.21485209465027
+iterations:  34
+cpu
+Step 100, Loss 0.8080, Time 15.8s
+time:  16.234439611434937
+iterations:  35
+cpu
+Step 100, Loss 0.7696, Time 15.8s
+time:  16.185773849487305
+iterations:  36
+cpu
+Step 100, Loss 0.8008, Time 15.9s
+time:  16.273918390274048
+iterations:  37
+cpu
+Step 100, Loss 0.7475, Time 16.0s
+time:  16.404199838638306
+iterations:  38
+cpu
+Step 100, Loss 0.6875, Time 15.9s
+time:  16.299495458602905
+iterations:  39
+cpu
+Step 100, Loss 0.7874, Time 15.9s
+time:  16.276308059692383
+iterations:  40
+cpu
+Step 100, Loss 0.9077, Time 15.8s
+time:  16.253976106643677
+iterations:  41
+cpu
+Step 100, Loss 0.7662, Time 15.9s
+time:  16.324026107788086
+iterations:  42
+cpu
+Step 100, Loss 0.7452, Time 15.9s
+time:  16.26580548286438
+iterations:  43
+cpu
+Step 100, Loss 0.8893, Time 15.8s
+time:  16.239295959472656
+iterations:  44
+cpu
+Step 100, Loss 0.7117, Time 15.7s
+time:  16.142783641815186
+iterations:  45
+cpu
+Step 100, Loss 0.7141, Time 15.8s
+time:  16.213623523712158
+iterations:  46
+cpu
+Step 100, Loss 0.7854, Time 15.8s
+time:  16.22978663444519
+iterations:  47
+cpu
+Step 100, Loss 0.7122, Time 15.8s
+time:  16.236329793930054
+iterations:  48
+cpu
+Step 100, Loss 0.8455, Time 15.7s
+time:  16.160051822662354
+iterations:  49
+cpu
+Step 100, Loss 0.9077, Time 15.9s
+time:  16.280895709991455
+iterations:  50
+cpu
+Step 100, Loss 1.3338, Time 15.8s
+time:  16.21513056755066
+iterations:  51
+cpu
+Step 100, Loss 0.8323, Time 15.9s
+time:  16.319069862365723
+iterations:  52
+cpu
+Step 100, Loss 0.7748, Time 15.8s
+time:  16.27776789665222
+iterations:  53
+cpu
+Step 100, Loss 0.7991, Time 15.9s
+time:  16.284077644348145
+iterations:  54
+cpu
+Step 100, Loss 0.6880, Time 15.8s
+time:  16.261877059936523
+iterations:  55
+cpu
+Step 100, Loss 0.8766, Time 15.9s
+time:  16.339638471603394
+iterations:  56
+cpu
+Step 100, Loss 0.7417, Time 15.8s
+time:  16.188901662826538
+iterations:  57
+cpu
+Step 100, Loss 0.6553, Time 15.7s
+time:  16.17634916305542
+iterations:  58
+cpu
+Step 100, Loss 0.8038, Time 15.7s
+time:  16.13506031036377
+iterations:  59
+cpu
+Step 100, Loss 1.0235, Time 15.8s
+time:  16.208807706832886
+iterations:  60
+cpu
+Step 100, Loss 0.9502, Time 16.0s
+time:  16.447891235351562
+iterations:  61
+cpu
+Step 100, Loss 0.7527, Time 15.8s
+time:  16.281466960906982
+iterations:  62
+cpu
+Step 100, Loss 0.7186, Time 15.8s
+time:  16.235867023468018
+iterations:  63
+cpu
+Step 100, Loss 0.9660, Time 15.8s
+time:  16.24954390525818
+iterations:  64
+cpu
+Step 100, Loss 0.6830, Time 16.0s
+time:  16.42320942878723
+iterations:  65
+cpu
+Step 100, Loss 0.7780, Time 15.8s
+time:  16.25996494293213
+iterations:  66
+cpu
+Step 100, Loss 0.7431, Time 15.8s
+time:  16.248069763183594
+iterations:  67
+cpu
+Step 100, Loss 0.7751, Time 15.8s
+time:  16.27595567703247
+iterations:  68
+cpu
+Step 100, Loss 0.7775, Time 15.8s
+time:  16.280216693878174
+iterations:  69
+cpu
+Step 100, Loss 0.7747, Time 16.0s
+time:  16.43428063392639
+iterations:  70
+cpu
+Step 100, Loss 0.8199, Time 15.8s
+time:  16.20937752723694
+iterations:  71
+cpu
+Step 100, Loss 0.8755, Time 15.7s
+time:  16.192784786224365
+iterations:  72
+cpu
+Step 100, Loss 0.7672, Time 15.7s
+time:  16.191429138183594
+iterations:  73
+cpu
+Step 100, Loss 0.8035, Time 15.7s
+time:  16.126763820648193
+iterations:  74
+cpu
+Step 100, Loss 0.7639, Time 15.9s
+time:  16.367201566696167
+iterations:  75
+cpu
+Step 100, Loss 0.7484, Time 15.9s
+time:  16.324731588363647
+iterations:  76
+cpu
+Step 100, Loss 1.1188, Time 15.8s
+time:  16.302528381347656
+iterations:  77
+cpu
+Step 100, Loss 0.7871, Time 15.7s
+time:  16.200578689575195
+iterations:  78
+cpu
+Step 100, Loss 0.7613, Time 15.8s
+time:  16.2973153591156
+iterations:  79
+cpu
+Step 100, Loss 0.8072, Time 15.7s
+time:  16.172560930252075
+iterations:  80
+cpu
+Step 100, Loss 0.7809, Time 15.9s
+time:  16.312594652175903
+iterations:  81
+cpu
+Step 100, Loss 0.7569, Time 15.8s
+time:  16.2570903301239
+iterations:  82
+cpu
+Step 100, Loss 0.7460, Time 15.8s
+time:  16.24091863632202
+iterations:  83
+cpu
+Step 100, Loss 0.8437, Time 15.9s
+time:  16.33452558517456
+iterations:  84
+cpu
+Step 100, Loss 0.8248, Time 15.8s
+time:  16.255963802337646
+iterations:  85
+cpu
+Step 100, Loss 0.6795, Time 16.0s
+time:  16.48465895652771
+iterations:  86
+cpu
+Step 100, Loss 0.8048, Time 15.9s
+time:  16.433600902557373
+iterations:  87
+cpu
+Step 100, Loss 0.7368, Time 15.9s
+time:  16.413110733032227
+iterations:  88
+cpu
+Step 100, Loss 0.9518, Time 15.9s
+time:  16.325997352600098
+iterations:  89
+cpu
+Step 100, Loss 0.7733, Time 15.9s
+time:  16.351743459701538
+iterations:  90
+cpu
+Step 100, Loss 0.7508, Time 15.8s
+time:  16.28868579864502
+iterations:  91
+cpu
+Step 100, Loss 0.7077, Time 15.8s
+time:  16.267436981201172
+iterations:  92
+cpu
+Step 100, Loss 0.7681, Time 15.9s
+time:  16.384703159332275
+iterations:  93
+cpu
+Step 100, Loss 0.7460, Time 15.8s
+time:  16.319526195526123
+iterations:  94
+cpu
+Step 100, Loss 0.7079, Time 15.9s
+time:  16.346432209014893
+iterations:  95
+cpu
+Step 100, Loss 0.7024, Time 15.7s
+time:  16.197460174560547
+iterations:  96
+cpu
+Step 100, Loss 0.7541, Time 15.8s
+time:  16.253510236740112
+iterations:  97
+cpu
+Step 100, Loss 0.7320, Time 16.1s
+time:  16.55052638053894
+iterations:  98
+cpu
+Step 100, Loss 0.7370, Time 15.9s
+time:  16.364508152008057
+iterations:  99
+cpu
+Step 100, Loss 0.8661, Time 15.8s
+time:  16.27080726623535
+iterations:  100
+cpu
+Step 100, Loss 0.7648, Time 15.8s
+time:  16.31403112411499
+iterations:  101
+cpu
+Step 100, Loss 1.2343, Time 16.0s
+time:  16.521552562713623
+iterations:  102
+cpu
+Step 100, Loss 0.7607, Time 16.0s
+time:  16.492871046066284
+iterations:  103
+cpu
+Step 100, Loss 0.7551, Time 16.0s
+time:  16.458268880844116
+iterations:  104
+cpu
+Step 100, Loss 0.7484, Time 16.0s
+time:  16.445138692855835
+iterations:  105
+cpu
+Step 100, Loss 0.9220, Time 15.9s
+time:  16.420403480529785
+iterations:  106
+cpu
+Step 100, Loss 0.7087, Time 16.1s
+time:  16.54585838317871
+iterations:  107
+cpu
+Step 100, Loss 0.7997, Time 15.9s
+time:  16.40907096862793
+iterations:  108
+cpu
+Step 100, Loss 0.7002, Time 15.8s
+time:  16.297922372817993
+iterations:  109
+cpu
+Step 100, Loss 0.8186, Time 15.8s
+time:  16.289538383483887
+iterations:  110
+cpu
+Step 100, Loss 0.7555, Time 16.1s
+time:  16.584213256835938
+iterations:  111
+cpu
+Step 100, Loss 0.8480, Time 16.0s
+time:  16.49290919303894
+iterations:  112
+cpu
+Step 100, Loss 0.7583, Time 15.9s
+time:  16.40428876876831
+iterations:  113
+cpu
+Step 100, Loss 0.7595, Time 16.0s
+time:  16.453405618667603
+iterations:  114
+cpu
+Step 100, Loss 0.7214, Time 15.9s
+time:  16.444112300872803
+iterations:  115
+cpu
+Step 100, Loss 0.7328, Time 16.3s
+time:  16.834782123565674
+iterations:  116
+cpu
+Step 100, Loss 0.7255, Time 15.9s
+time:  16.406912565231323
+iterations:  117
+cpu
+Step 100, Loss 0.7750, Time 15.8s
+time:  16.330193758010864
+iterations:  118
+cpu
+Step 100, Loss 0.7409, Time 15.9s
+time:  16.403918266296387
+iterations:  119
+cpu
+Step 100, Loss 0.7793, Time 15.9s
+time:  16.375925540924072
+iterations:  120
+cpu
+Step 100, Loss 0.7994, Time 16.0s
+time:  16.459941387176514
+iterations:  121
+cpu
+Step 100, Loss 0.7353, Time 15.9s
+time:  16.39757752418518
+iterations:  122
+cpu
+Step 100, Loss 0.7487, Time 15.9s
+time:  16.392816305160522
+iterations:  123
+cpu
+Step 100, Loss 0.8379, Time 15.9s
+time:  16.405290603637695
+iterations:  124
+cpu
+Step 100, Loss 0.7864, Time 16.0s
+time:  16.450496196746826
+iterations:  125
+cpu
+Step 100, Loss 0.8422, Time 15.9s
+time:  16.383970975875854
+iterations:  126
+cpu
+Step 100, Loss 0.6771, Time 15.8s
+time:  16.332814931869507
+iterations:  127
+cpu
+Step 100, Loss 0.7519, Time 15.9s
+time:  16.434747219085693
+iterations:  128
+cpu
+Step 100, Loss 0.7328, Time 15.9s
+time:  16.39726161956787
+iterations:  129
+cpu
+Step 100, Loss 0.7923, Time 16.0s
+time:  16.519075870513916
+iterations:  130
+cpu
+Step 100, Loss 0.7993, Time 15.9s
+time:  16.36877465248108
+iterations:  131
+cpu
+Step 100, Loss 0.8104, Time 15.9s
+time:  16.38496470451355
+iterations:  132
+cpu
+Step 100, Loss 0.7350, Time 15.9s
+time:  16.422921895980835
+iterations:  133
+cpu
+Step 100, Loss 0.8387, Time 15.9s
+time:  16.42491626739502
+iterations:  134
+cpu
+Step 100, Loss 0.8751, Time 15.9s
+time:  16.377728700637817
+iterations:  135
+cpu
+Step 100, Loss 0.8045, Time 15.9s
+time:  16.389034748077393
+iterations:  136
+cpu
+Step 100, Loss 0.7738, Time 15.9s
+time:  16.429648399353027
+iterations:  137
+cpu
+Step 100, Loss 0.7523, Time 15.9s
+time:  16.414350032806396
+iterations:  138
+cpu
+Step 100, Loss 0.8100, Time 16.0s
+time:  16.51218271255493
+iterations:  139
+cpu
+Step 100, Loss 0.8013, Time 15.9s
+time:  16.41740655899048
+iterations:  140
+cpu
+Step 100, Loss 0.8403, Time 15.9s
+time:  16.381875038146973
+iterations:  141
+cpu
+Step 100, Loss 0.7137, Time 15.8s
+time:  16.366567850112915
+iterations:  142
+cpu
+Step 100, Loss 0.8429, Time 15.9s
+time:  16.387211322784424
+iterations:  143
+cpu
+Step 100, Loss 0.7779, Time 15.9s
+time:  16.44420051574707
+iterations:  144
+cpu
+Step 100, Loss 0.7983, Time 15.9s
+time:  16.398543119430542
+iterations:  145
+cpu
+Step 100, Loss 0.8156, Time 15.9s
+time:  16.41940212249756
+iterations:  146
+cpu
+Step 100, Loss 0.7476, Time 15.9s
+time:  16.399153470993042
+iterations:  147
+cpu
+Step 100, Loss 0.7404, Time 16.0s
+time:  16.554216146469116
+iterations:  148
+cpu
+Step 100, Loss 0.7480, Time 15.9s
+time:  16.41777539253235
+iterations:  149
+cpu
+Step 100, Loss 0.8327, Time 15.9s
+time:  16.415608644485474
+iterations:  150
+cpu
+Step 100, Loss 0.7331, Time 15.9s
+time:  16.432339668273926
+iterations:  151
+cpu
+Step 100, Loss 0.7830, Time 15.9s
+time:  16.410452604293823
+iterations:  152
+cpu
+Step 100, Loss 1.4454, Time 15.9s
+time:  16.4527268409729
+iterations:  153
+cpu
+Step 100, Loss 0.7719, Time 15.9s
+time:  16.408360958099365
+iterations:  154
+cpu
+Step 100, Loss 0.7876, Time 15.9s
+time:  16.382704496383667
+iterations:  155
+cpu
+Step 100, Loss 1.4496, Time 15.8s
+time:  16.350878953933716
+iterations:  156
+cpu
+Step 100, Loss 0.7215, Time 16.0s
+time:  16.493296146392822
+iterations:  157
+cpu
+Step 100, Loss 0.8885, Time 15.9s
+time:  16.395987510681152
+iterations:  158
+cpu
+Step 100, Loss 0.7089, Time 15.8s
+time:  16.36783790588379
+iterations:  159
+cpu
+Step 100, Loss 0.9807, Time 15.9s
+time:  16.45158290863037
+iterations:  160
+cpu
+Step 100, Loss 0.8830, Time 15.9s
+time:  16.438037395477295
+iterations:  161
+cpu
+Step 100, Loss 0.7139, Time 16.0s
+time:  16.552953004837036
+iterations:  162
+cpu
+Step 100, Loss 1.0920, Time 15.9s
+time:  16.44422674179077
+iterations:  163
+cpu
+Step 100, Loss 0.7403, Time 15.9s
+time:  16.427627325057983
+iterations:  164
+cpu
+Step 100, Loss 0.8458, Time 15.9s
+time:  16.47033667564392
+iterations:  165
+cpu
+Step 100, Loss 0.7786, Time 15.9s
+time:  16.444897890090942
+iterations:  166
+cpu
+Step 100, Loss 0.7759, Time 16.0s
+time:  16.534671783447266
+iterations:  167
+cpu
+Step 100, Loss 0.6947, Time 16.0s
+time:  16.497443914413452
+iterations:  168
+cpu
+Step 100, Loss 0.8132, Time 15.9s
+time:  16.42654037475586
+iterations:  169
+cpu
+Step 100, Loss 0.8101, Time 15.9s
+time:  16.472089529037476
+iterations:  170
+cpu
+Step 100, Loss 0.7591, Time 16.0s
+time:  16.561519861221313
+iterations:  171
+cpu
+Step 100, Loss 0.7955, Time 16.0s
+time:  16.51636815071106
+iterations:  172
+cpu
+Step 100, Loss 0.6962, Time 15.9s
+time:  16.44875741004944
+iterations:  173
+cpu
+Step 100, Loss 0.8045, Time 15.9s
+time:  16.482855081558228
+iterations:  174
+cpu
+Step 100, Loss 0.6606, Time 15.9s
+time:  16.464213132858276
+iterations:  175
+cpu
+Step 100, Loss 0.7697, Time 16.0s
+time:  16.51072406768799
+iterations:  176
+cpu
+Step 100, Loss 0.7239, Time 15.9s
+time:  16.447432041168213
+iterations:  177
+cpu
+Step 100, Loss 0.9145, Time 15.9s
+time:  16.445041179656982
+iterations:  178
+cpu
+Step 100, Loss 0.8991, Time 15.9s
+time:  16.45590591430664
+iterations:  179
+cpu
+Step 100, Loss 0.7651, Time 16.0s
+time:  16.540746688842773
+iterations:  180
+cpu
+Step 100, Loss 0.6684, Time 15.9s
+time:  16.44477939605713
+iterations:  181
+cpu
+Step 100, Loss 0.8312, Time 15.9s
+time:  16.441563606262207
+iterations:  182
+cpu
+Step 100, Loss 0.9913, Time 15.9s
+time:  16.443628549575806
+iterations:  183
+cpu
+Step 100, Loss 0.7926, Time 15.9s
+time:  16.507172107696533
+iterations:  184
+cpu
+Step 100, Loss 0.6472, Time 16.0s
+time:  16.530690670013428
+iterations:  185
+cpu
+Step 100, Loss 0.7844, Time 15.9s
+time:  16.446853399276733
+iterations:  186
+cpu
+Step 100, Loss 0.7640, Time 15.8s
+time:  16.406736850738525
+iterations:  187
+cpu
+Step 100, Loss 0.8587, Time 15.9s
+time:  16.459507703781128
+iterations:  188
+cpu
+Step 100, Loss 0.8427, Time 15.9s
+time:  16.42464590072632
+iterations:  189
+cpu
+Step 100, Loss 0.7380, Time 16.0s
+time:  16.566470623016357
+iterations:  190
+cpu
+Step 100, Loss 0.8075, Time 15.9s
+time:  16.415616035461426
+iterations:  191
+cpu
+Step 100, Loss 0.7555, Time 15.8s
+time:  16.41099190711975
+iterations:  192
+cpu
+Step 100, Loss 0.7161, Time 15.9s
+time:  16.43936014175415
+iterations:  193
+cpu
+Step 100, Loss 0.7755, Time 15.9s
+time:  16.49211573600769
+iterations:  194
+cpu
+Step 100, Loss 0.7652, Time 15.8s
+time:  16.421136617660522
+iterations:  195
+cpu
+Step 100, Loss 0.6937, Time 15.8s
+time:  16.41843008995056
+iterations:  196
+cpu
+Step 100, Loss 0.7859, Time 15.9s
+time:  16.441198587417603
+iterations:  197
+cpu
+Step 100, Loss 0.7474, Time 15.9s
+time:  16.436394691467285
+iterations:  198
+cpu
+Step 100, Loss 0.8097, Time 16.0s
+time:  16.537719011306763
+iterations:  199
+cpu
+Step 100, Loss 0.7182, Time 15.8s
+time:  16.417017698287964
+iterations:  200
+cpu
+Step 100, Loss 0.7980, Time 15.9s
+time:  16.436407804489136
+iterations:  201
+cpu
+Step 100, Loss 0.8088, Time 16.0s
+time:  16.565244674682617
+iterations:  202
+cpu
+Step 100, Loss 0.8046, Time 15.9s
+time:  16.49943208694458
+iterations:  203
+cpu
+Step 100, Loss 0.7279, Time 15.9s
+time:  16.52466344833374
+iterations:  204
+cpu
+Step 100, Loss 0.8298, Time 16.0s
+time:  16.55897045135498
+iterations:  205
+cpu
+Step 100, Loss 0.8085, Time 15.9s
+time:  16.436219453811646
+iterations:  206
+cpu
+Step 100, Loss 0.7115, Time 15.8s
+time:  16.438822031021118
+iterations:  207
+cpu
+Step 100, Loss 0.9057, Time 15.9s
+time:  16.53285264968872
+iterations:  208
+cpu
+Step 100, Loss 0.7200, Time 15.8s
+time:  16.421255111694336
+iterations:  209
+cpu
+Step 100, Loss 0.7945, Time 15.9s
+time:  16.50615930557251
+iterations:  210
+cpu
+Step 100, Loss 0.6731, Time 15.9s
+time:  16.510911464691162
+iterations:  211
+cpu
+Step 100, Loss 0.7401, Time 15.9s
+time:  16.453532218933105
+iterations:  212
+cpu
+Step 100, Loss 0.7103, Time 16.0s
+time:  16.545120239257812
+iterations:  213
+cpu
+Step 100, Loss 0.7585, Time 15.9s
+time:  16.454679250717163
+iterations:  214
+cpu
+Step 100, Loss 0.7776, Time 15.9s
+time:  16.46335792541504
+iterations:  215
+cpu
+Step 100, Loss 0.8705, Time 15.8s
+time:  16.449418544769287
+iterations:  216
+cpu
+Step 100, Loss 0.7442, Time 15.9s
+time:  16.534772872924805
+iterations:  217
+cpu
+Step 100, Loss 0.7397, Time 15.8s
+time:  16.39127802848816
+iterations:  218
+cpu
+Step 100, Loss 0.7074, Time 15.8s
+time:  16.424608945846558
+iterations:  219
+cpu
+Step 100, Loss 0.8747, Time 15.9s
+time:  16.461814641952515
+iterations:  220
+cpu
+Step 100, Loss 0.7297, Time 15.9s
+time:  16.473729848861694
+iterations:  221
+cpu
+Step 100, Loss 0.6721, Time 16.0s
+time:  16.57040548324585
+iterations:  222
+cpu
+Step 100, Loss 0.8183, Time 15.9s
+time:  16.47501254081726
+iterations:  223
+cpu
+Step 100, Loss 0.7742, Time 15.9s
+time:  16.448189735412598
+iterations:  224
+cpu
+Step 100, Loss 0.8424, Time 15.9s
+time:  16.5384259223938
+iterations:  225
+cpu
+Step 100, Loss 0.7812, Time 16.0s
+time:  16.593000650405884
+iterations:  226
+cpu
+Step 100, Loss 0.7848, Time 15.9s
+time:  16.48178744316101
+iterations:  227
+cpu
+Step 100, Loss 0.6671, Time 15.9s
+time:  16.501973628997803
+iterations:  228
+cpu
+Step 100, Loss 2.0215, Time 15.9s
+time:  16.526795148849487
+iterations:  229
+cpu
+Step 100, Loss 0.7596, Time 15.9s
+time:  16.506592750549316
+iterations:  230
+cpu
+Step 100, Loss 0.7791, Time 16.0s
+time:  16.58267617225647
+iterations:  231
+cpu
+Step 100, Loss 0.7935, Time 15.9s
+time:  16.553717136383057
+iterations:  232
+cpu
+Step 100, Loss 0.7907, Time 15.9s
+time:  16.52025818824768
+iterations:  233
+cpu
+Step 100, Loss 0.6828, Time 16.0s
+time:  16.584545135498047
+iterations:  234
+cpu
+Step 100, Loss 0.7979, Time 15.9s
+time:  16.527212142944336
+iterations:  235
+cpu
+Step 100, Loss 0.7936, Time 16.0s
+time:  16.580774545669556
+iterations:  236
+cpu
+Step 100, Loss 0.8004, Time 15.9s
+time:  16.519407987594604
+iterations:  237
+cpu
+Step 100, Loss 0.7199, Time 15.9s
+time:  16.520648956298828
+iterations:  238
+cpu
+Step 100, Loss 0.7296, Time 15.8s
+time:  16.425857543945312
+iterations:  239
+cpu
+Step 100, Loss 0.8473, Time 16.0s
+time:  16.600260019302368
+iterations:  240
+cpu
+Step 100, Loss 0.9616, Time 15.9s
+time:  16.484217166900635
+iterations:  241
+cpu
+Step 100, Loss 1.5163, Time 15.9s
+time:  16.452805519104004
+iterations:  242
+cpu
+Step 100, Loss 0.7967, Time 15.9s
+time:  16.505494117736816
+iterations:  243
+cpu
+Step 100, Loss 0.9949, Time 15.9s
+time:  16.5486958026886
+iterations:  244
+cpu
+Step 100, Loss 0.7812, Time 16.0s
+time:  16.588016033172607
+iterations:  245
+cpu
+Step 100, Loss 0.7540, Time 15.9s
+time:  16.53395938873291
+iterations:  246
+cpu
+Step 100, Loss 0.9311, Time 15.9s
+time:  16.521678924560547
+iterations:  247
+cpu
+Step 100, Loss 0.7957, Time 15.9s
+time:  16.48995280265808
+iterations:  248
+cpu
+Step 100, Loss 0.8174, Time 16.0s
+time:  16.64903736114502
+iterations:  249
+cpu
+Step 100, Loss 0.8090, Time 15.9s
+time:  16.585583686828613
+iterations:  250
+cpu
+Step 100, Loss 0.6903, Time 16.0s
+time:  16.621976375579834
+iterations:  251
+cpu
+Step 100, Loss 0.8243, Time 15.9s
+time:  16.562791109085083
+iterations:  252
+cpu
+Step 100, Loss 0.8774, Time 15.9s
+time:  16.551695346832275
+iterations:  253
+cpu
+Step 100, Loss 0.7251, Time 16.0s
+time:  16.59734344482422
+iterations:  254
+cpu
+Step 100, Loss 0.6767, Time 15.9s
+time:  16.577476263046265
+iterations:  255
+cpu
+Step 100, Loss 0.7747, Time 16.0s
+time:  16.605513334274292
+iterations:  256
+cpu
+Step 100, Loss 0.8029, Time 15.9s
+time:  16.506138801574707
+iterations:  257
+cpu
+Step 100, Loss 0.7990, Time 15.9s
+time:  16.534748792648315
+iterations:  258
+cpu
+Step 100, Loss 0.7290, Time 16.0s
+time:  16.61810302734375
+iterations:  259
+cpu
+Step 100, Loss 0.7752, Time 15.9s
+time:  16.476190328598022
+iterations:  260
+cpu
+Step 100, Loss 1.1722, Time 15.9s
+time:  16.555939197540283
+iterations:  261
+cpu
+Step 100, Loss 0.7312, Time 15.9s
+time:  16.511249542236328
+iterations:  262
+cpu
+Step 100, Loss 0.8059, Time 16.0s
+time:  16.590856075286865
+iterations:  263
+cpu
+Step 100, Loss 1.4634, Time 15.9s
+time:  16.53262948989868
+iterations:  264
+cpu
+Step 100, Loss 1.0511, Time 15.8s
+time:  16.495842218399048
+iterations:  265
+cpu
+Step 100, Loss 0.8161, Time 15.9s
+time:  16.49532461166382
+iterations:  266
+cpu
+Step 100, Loss 0.8793, Time 15.9s
+time:  16.596627712249756
+iterations:  267
+cpu
+Step 100, Loss 0.8109, Time 16.0s
+time:  16.6135675907135
+iterations:  268
+cpu
+Step 100, Loss 0.7423, Time 15.9s
+time:  16.54527974128723
+iterations:  269
+cpu
+Step 100, Loss 0.7474, Time 15.9s
+time:  16.57217049598694
+iterations:  270
+cpu
+Step 100, Loss 0.8186, Time 15.9s
+time:  16.541046619415283
+iterations:  271
+cpu
+Step 100, Loss 0.7878, Time 16.0s
+time:  16.633314609527588
+iterations:  272
+cpu
+Step 100, Loss 0.6692, Time 15.9s
+time:  16.55807876586914
+iterations:  273
+cpu
+Step 100, Loss 0.8091, Time 15.9s
+time:  16.535289764404297
+iterations:  274
+cpu
+Step 100, Loss 0.7532, Time 15.9s
+time:  16.505289793014526
+iterations:  275
+cpu
+Step 100, Loss 0.9562, Time 15.9s
+time:  16.51362371444702
+iterations:  276
+cpu
+Step 100, Loss 0.7870, Time 16.0s
+time:  16.61237621307373
+iterations:  277
+cpu
+Step 100, Loss 0.9609, Time 16.0s
+time:  16.59401798248291
+iterations:  278
+cpu
+Step 100, Loss 0.8661, Time 15.9s
+time:  16.54329776763916
+iterations:  279
+cpu
+Step 100, Loss 0.7543, Time 15.9s
+time:  16.59139895439148
+iterations:  280
+cpu
+Step 100, Loss 0.8969, Time 15.9s
+time:  16.551093101501465
+iterations:  281
+cpu
+Step 100, Loss 0.7370, Time 16.0s
+time:  16.674110174179077
+iterations:  282
+cpu
+Step 100, Loss 0.7577, Time 15.9s
+time:  16.55800151824951
+iterations:  283
+cpu
+Step 100, Loss 0.7402, Time 15.9s
+time:  16.501777410507202
+iterations:  284
+cpu
+Step 100, Loss 0.8576, Time 15.9s
+time:  16.575730323791504
+iterations:  285
+cpu
+Step 100, Loss 0.7933, Time 15.9s
+time:  16.587533235549927
+iterations:  286
+cpu
+Step 100, Loss 0.7775, Time 15.9s
+time:  16.512603521347046
+iterations:  287
+cpu
+Step 100, Loss 0.7811, Time 15.9s
+time:  16.565418004989624
+iterations:  288
+cpu
+Step 100, Loss 0.8365, Time 15.9s
+time:  16.566336631774902
+iterations:  289
+cpu
+Step 100, Loss 0.8349, Time 15.9s
+time:  16.534358263015747
+iterations:  290
+cpu
+Step 100, Loss 0.7375, Time 15.9s
+time:  16.55899667739868
+iterations:  291
+cpu
+Step 100, Loss 0.8398, Time 15.8s
+time:  16.50929307937622
+iterations:  292
+cpu
+Step 100, Loss 0.6834, Time 15.8s
+time:  16.50431203842163
+iterations:  293
+cpu
+Step 100, Loss 0.8435, Time 15.8s
+time:  16.48220443725586
+iterations:  294
+cpu
+Step 100, Loss 0.7018, Time 15.8s
+time:  16.492270708084106
+iterations:  295
+cpu
+Step 100, Loss 0.7107, Time 15.7s
+time:  16.368677854537964
+iterations:  296
+cpu
+Step 100, Loss 0.7385, Time 15.6s
+time:  16.294762134552002
+iterations:  297
+cpu
+Step 100, Loss 0.6936, Time 15.7s
+time:  16.346193552017212
+iterations:  298
+cpu
+Step 100, Loss 0.7916, Time 15.8s
+time:  16.413455724716187
+iterations:  299
+cpu
+Step 100, Loss 0.6884, Time 15.7s
+time:  16.438167095184326
+iterations:  300
+cpu
+Step 100, Loss 0.8789, Time 15.7s
+time:  16.335089683532715
+iterations:  301
+cpu
+Step 100, Loss 0.8052, Time 15.7s
+time:  16.31598997116089
+iterations:  302
+cpu
+Step 100, Loss 1.6341, Time 15.7s
+time:  16.368702173233032
+iterations:  303
+cpu
+Step 100, Loss 0.8227, Time 15.7s
+time:  16.394726037979126
+iterations:  304
+cpu
+Step 100, Loss 0.6667, Time 15.7s
+time:  16.414585828781128
+iterations:  305
+cpu
+Step 100, Loss 3.0768, Time 15.6s
+time:  16.32975125312805
+iterations:  306
+cpu
+Step 100, Loss 0.7731, Time 15.6s
+time:  16.32759714126587
+iterations:  307
+cpu
+Step 100, Loss 0.7833, Time 15.6s
+time:  16.309175491333008
+iterations:  308
+cpu
+Step 100, Loss 0.7945, Time 15.9s
+time:  16.634255409240723
+iterations:  309
+cpu
+Step 100, Loss 0.7029, Time 15.8s
+time:  16.493249893188477
+iterations:  310
+cpu
+Step 100, Loss 0.8463, Time 15.8s
+time:  16.447577238082886
+iterations:  311
+cpu
+Step 100, Loss 0.7501, Time 15.8s
+time:  16.484983205795288
+iterations:  312
+cpu
+Step 100, Loss 0.8018, Time 15.6s
+time:  16.3438458442688
+iterations:  313
+cpu
+Step 100, Loss 0.7602, Time 15.7s
+time:  16.397446393966675
+iterations:  314
+cpu
+Step 100, Loss 0.8166, Time 15.6s
+time:  16.299762725830078
+iterations:  315
+cpu
+Step 100, Loss 0.8687, Time 15.6s
+time:  16.292968034744263
+iterations:  316
+cpu
+Step 100, Loss 0.7248, Time 15.6s
+time:  16.25901961326599
+iterations:  317
+cpu
+Step 100, Loss 0.7568, Time 15.7s
+time:  16.399060487747192
+iterations:  318
+cpu
+Step 100, Loss 0.7126, Time 15.6s
+time:  16.321552753448486
+iterations:  319
+cpu
+Step 100, Loss 0.7640, Time 15.6s
+time:  16.32275891304016
+iterations:  320
+cpu
+Step 100, Loss 0.7556, Time 15.6s
+time:  16.317994594573975
+iterations:  321
+cpu
+Step 100, Loss 0.6926, Time 15.6s
+time:  16.347127199172974
+iterations:  322
+cpu
+Step 100, Loss 0.7922, Time 15.7s
+time:  16.376364946365356
+iterations:  323
+cpu
+Step 100, Loss 0.7072, Time 15.7s
+time:  16.4069242477417
+iterations:  324
+cpu
+Step 100, Loss 0.7266, Time 15.6s
+time:  16.347421646118164
+iterations:  325
+cpu
+Step 100, Loss 0.8860, Time 15.7s
+time:  16.394107341766357
+iterations:  326
+cpu
+Step 100, Loss 0.8880, Time 15.6s
+time:  16.362918853759766
+iterations:  327
+cpu
+Step 100, Loss 0.7264, Time 15.7s
+time:  16.457902431488037
+iterations:  328
+cpu
+Step 100, Loss 0.7542, Time 15.6s
+time:  16.334916353225708
+iterations:  329
+cpu
+Step 100, Loss 0.7316, Time 15.8s
+time:  16.534085035324097
+iterations:  330
+cpu
+Step 100, Loss 0.8142, Time 15.8s
+time:  16.480968236923218
+iterations:  331
+cpu
+Step 100, Loss 0.8172, Time 15.9s
+time:  16.562148094177246
+iterations:  332
+cpu
+Step 100, Loss 0.6605, Time 15.8s
+time:  16.496467113494873
+iterations:  333
+cpu
+Step 100, Loss 0.8512, Time 15.8s
+time:  16.509121417999268
+iterations:  334
+cpu
+Step 100, Loss 0.6908, Time 15.8s
+time:  16.47523331642151
+iterations:  335
+cpu
+Step 100, Loss 0.8137, Time 15.8s
+time:  16.51665186882019
+iterations:  336
+cpu
+Step 100, Loss 0.8235, Time 15.9s
+time:  16.58048367500305
+iterations:  337
+cpu
+Step 100, Loss 0.9358, Time 15.8s
+time:  16.521794080734253
+iterations:  338
+cpu
+Step 100, Loss 0.9316, Time 15.8s
+time:  16.480278730392456
+iterations:  339
+cpu
+Step 100, Loss 0.7136, Time 15.8s
+time:  16.522138833999634
+iterations:  340
+cpu
+Step 100, Loss 0.8405, Time 15.9s
+time:  16.555992364883423
+iterations:  341
+cpu
+Step 100, Loss 0.7685, Time 15.8s
+time:  16.562769889831543
+iterations:  342
+cpu
+Step 100, Loss 0.7854, Time 15.7s
+time:  16.425814628601074
+iterations:  343
+cpu
+Step 100, Loss 0.8394, Time 15.6s
+time:  16.304556131362915
+iterations:  344
+cpu
+Step 100, Loss 0.7316, Time 15.6s
+time:  16.317424774169922
+iterations:  345
+cpu
+Step 100, Loss 0.7083, Time 15.4s
+time:  16.17499041557312
+iterations:  346
+cpu
+Step 100, Loss 0.7274, Time 15.2s
+time:  15.912111043930054
+iterations:  347
+cpu
+Step 100, Loss 0.8983, Time 15.3s
+time:  16.025432586669922
+iterations:  348
+cpu
+Step 100, Loss 0.6847, Time 15.2s
+time:  15.96571683883667
+iterations:  349
+cpu
+Step 100, Loss 0.7443, Time 15.3s
+time:  15.97933578491211
+iterations:  350
+cpu
+Step 100, Loss 0.7706, Time 15.4s
+time:  16.089993238449097
+iterations:  351
+cpu
+Step 100, Loss 0.7948, Time 15.2s
+time:  15.973098039627075
+iterations:  352
+cpu
+Step 100, Loss 0.8288, Time 15.2s
+time:  15.950554847717285
+iterations:  353
+cpu
+Step 100, Loss 0.6938, Time 15.3s
+time:  15.996224164962769
+iterations:  354
+cpu
+Step 100, Loss 0.7090, Time 15.3s
+time:  16.06316900253296
+iterations:  355
+cpu
+Step 100, Loss 0.8034, Time 15.3s
+time:  15.968781232833862
+iterations:  356
+cpu
+Step 100, Loss 0.7611, Time 15.3s
+time:  16.003856897354126
+iterations:  357
+cpu
+Step 100, Loss 0.6671, Time 15.3s
+time:  16.01865530014038
+iterations:  358
+cpu
+Step 100, Loss 0.8188, Time 15.2s
+time:  15.898071765899658
+iterations:  359
+cpu
+Step 100, Loss 0.8539, Time 15.2s
+time:  15.989675521850586
+iterations:  360
+cpu
+Step 100, Loss 0.8034, Time 15.2s
+time:  15.924890995025635
+iterations:  361
+cpu
+Step 100, Loss 0.7219, Time 15.2s
+time:  15.935465097427368
+iterations:  362
+cpu
+Step 100, Loss 0.8312, Time 15.3s
+time:  16.000331163406372
+iterations:  363
+cpu
+Step 100, Loss 0.7485, Time 15.3s
+time:  16.068355798721313
+iterations:  364
+cpu
+Step 100, Loss 0.7875, Time 15.3s
+time:  16.04329538345337
+iterations:  365
+cpu
+Step 100, Loss 0.6603, Time 15.3s
+time:  16.076592445373535
+iterations:  366
+cpu
+Step 100, Loss 0.7417, Time 15.3s
+time:  16.094300746917725
+iterations:  367
+cpu
+Step 100, Loss 0.7858, Time 15.3s
+time:  16.056873083114624
+iterations:  368
+cpu
+Step 100, Loss 0.7701, Time 15.4s
+time:  16.169703006744385
+iterations:  369
+cpu
+Step 100, Loss 0.8243, Time 15.4s
+time:  16.11306095123291
+iterations:  370
+cpu
+Step 100, Loss 0.8703, Time 15.9s
+time:  16.660788774490356
+iterations:  371
+cpu
+Step 100, Loss 0.7851, Time 15.3s
+time:  16.03583574295044
+iterations:  372
+cpu
+Step 100, Loss 0.9676, Time 15.2s
+time:  15.987570762634277
+iterations:  373
+cpu
+Step 100, Loss 0.9542, Time 15.4s
+time:  16.16603374481201
+iterations:  374
+cpu
+Step 100, Loss 0.6997, Time 15.4s
+time:  16.16465473175049
+iterations:  375
+cpu
+Step 100, Loss 0.7971, Time 15.4s
+time:  16.16375756263733
+iterations:  376
+cpu
+Step 100, Loss 0.8230, Time 15.4s
+time:  16.10482358932495
+iterations:  377
+cpu
+Step 100, Loss 0.8061, Time 15.6s
+time:  16.330641984939575
+iterations:  378
+cpu
+Step 100, Loss 0.7241, Time 15.5s
+time:  16.284921646118164
+iterations:  379
+cpu
+Step 100, Loss 1.4472, Time 15.5s
+time:  16.193175077438354
+iterations:  380
+cpu
+Step 100, Loss 0.7581, Time 16.9s
+time:  17.639464139938354
+iterations:  381
+cpu
+Step 100, Loss 0.7857, Time 15.4s
+time:  16.151841640472412
+iterations:  382
+cpu
+Step 100, Loss 0.8035, Time 15.4s
+time:  16.15080738067627
+iterations:  383
+cpu
+Step 100, Loss 0.7847, Time 15.3s
+time:  16.102951526641846
+iterations:  384
+cpu
+Step 100, Loss 0.7528, Time 15.3s
+time:  16.097413301467896
+iterations:  385
+cpu
+Step 100, Loss 0.6355, Time 15.4s
+time:  16.094002962112427
+iterations:  386
+cpu
+Step 100, Loss 0.8075, Time 15.4s
+time:  16.204493761062622
+iterations:  387
+cpu
+Step 100, Loss 0.7639, Time 15.4s
+time:  16.16703200340271
+iterations:  388
+cpu
+Step 100, Loss 0.7653, Time 15.4s
+time:  16.128197193145752
+iterations:  389
+cpu
+Step 100, Loss 0.7974, Time 18.1s
+time:  18.864676237106323
+iterations:  390
+cpu
+Step 100, Loss 0.7894, Time 15.1s
+time:  15.922202348709106
+iterations:  391
+cpu
+Step 100, Loss 2.3178, Time 15.2s
+time:  15.946139097213745
+iterations:  392
+cpu
+Step 100, Loss 0.8349, Time 15.5s
+time:  16.2640221118927
+iterations:  393
+cpu
+Step 100, Loss 0.7616, Time 15.4s
+time:  16.20137333869934
+iterations:  394
+cpu
+Step 100, Loss 0.7979, Time 15.2s
+time:  15.932708501815796
+iterations:  395
+cpu
+Step 100, Loss 0.6700, Time 15.1s
+time:  15.940762996673584
+iterations:  396
+cpu
+Step 100, Loss 0.9332, Time 15.3s
+time:  16.08299970626831
+iterations:  397
+cpu
+Step 100, Loss 0.7489, Time 15.2s
+time:  15.915357112884521
+iterations:  398
+cpu
+Step 100, Loss 0.7665, Time 15.9s
+time:  16.65964937210083
+iterations:  399
+cpu
+Step 100, Loss 0.7419, Time 15.2s
+time:  15.99173378944397
+iterations:  400
+cpu
+Step 100, Loss 0.6911, Time 15.4s
+time:  16.111267566680908
+iterations:  401
+cpu
+Step 100, Loss 0.9061, Time 15.3s
+time:  16.08776021003723
+iterations:  402
+cpu
+Step 100, Loss 0.7438, Time 15.3s
+time:  16.086005926132202
+iterations:  403
+cpu
+Step 100, Loss 0.7527, Time 15.5s
+time:  16.21004033088684
+iterations:  404
+cpu
+Step 100, Loss 0.8525, Time 15.5s
+time:  16.304956912994385
+iterations:  405
+cpu
+Step 100, Loss 0.7334, Time 15.7s
+time:  16.5135817527771
+iterations:  406
+cpu
+Step 100, Loss 0.7781, Time 15.3s
+time:  16.107797145843506
+iterations:  407
+cpu
+Step 100, Loss 0.8192, Time 15.5s
+time:  16.258996963500977
+iterations:  408
+cpu
+Step 100, Loss 0.7992, Time 15.4s
+time:  16.22901439666748
+iterations:  409
+cpu
+Step 100, Loss 0.7443, Time 15.5s
+time:  16.22136878967285
+iterations:  410
+cpu
+Step 100, Loss 0.7287, Time 15.4s
+time:  16.160499572753906
+iterations:  411
+cpu
+Step 100, Loss 0.8403, Time 15.3s
+time:  16.122060298919678
+iterations:  412
+cpu
+Step 100, Loss 0.7763, Time 15.4s
+time:  16.131707668304443
+iterations:  413
+cpu
+Step 100, Loss 1.0392, Time 15.3s
+time:  16.084478855133057
+iterations:  414
+cpu
+Step 100, Loss 0.7731, Time 15.4s
+time:  16.172245502471924
+iterations:  415
+cpu
+Step 100, Loss 0.7436, Time 15.3s
+time:  16.096769094467163
+iterations:  416
+cpu
+Step 100, Loss 0.8908, Time 15.4s
+time:  16.254549264907837
+iterations:  417
+cpu
+Step 100, Loss 0.8101, Time 15.4s
+time:  16.20689582824707
+iterations:  418
+cpu
+Step 100, Loss 0.7428, Time 15.3s
+time:  16.117600679397583
+iterations:  419
+cpu
+Step 100, Loss 3.8970, Time 15.5s
+time:  16.283278465270996
+iterations:  420
+cpu
+Step 100, Loss 0.7836, Time 15.4s
+time:  16.182631254196167
+iterations:  421
+cpu
+Step 100, Loss 0.7913, Time 15.3s
+time:  16.03648281097412
+iterations:  422
+cpu
+Step 100, Loss 0.7862, Time 15.3s
+time:  16.07468843460083
+iterations:  423
+cpu
+Step 100, Loss 0.7019, Time 15.3s
+time:  16.161210775375366
+iterations:  424
+cpu
+Step 100, Loss 1.2182, Time 15.3s
+time:  16.029106616973877
+iterations:  425
+cpu
+Step 100, Loss 0.7840, Time 15.2s
+time:  16.05041003227234
+iterations:  426
+cpu
+Step 100, Loss 0.7507, Time 15.2s
+time:  16.04085087776184
+iterations:  427
+cpu
+Step 100, Loss 0.8174, Time 15.2s
+time:  16.03037142753601
+iterations:  428
+cpu
+Step 100, Loss 0.7671, Time 15.3s
+time:  16.135046005249023
+iterations:  429
+cpu
+Step 100, Loss 0.7397, Time 15.2s
+time:  16.027990579605103
+iterations:  430
+cpu
+Step 100, Loss 0.8980, Time 15.2s
+time:  16.024876594543457
+iterations:  431
+cpu
+Step 100, Loss 0.8675, Time 15.2s
+time:  16.04822063446045
+iterations:  432
+cpu
+Step 100, Loss 0.6999, Time 15.3s
+time:  16.085580587387085
+iterations:  433
+cpu
+Step 100, Loss 0.7697, Time 15.2s
+time:  16.01065158843994
+iterations:  434
+cpu
+Step 100, Loss 0.6940, Time 15.3s
+time:  16.126965522766113
+iterations:  435
+cpu
+Step 100, Loss 0.7359, Time 15.5s
+time:  16.278559923171997
+iterations:  436
+cpu
+Step 100, Loss 0.7879, Time 15.3s
+time:  16.120421886444092
+iterations:  437
+cpu
+Step 100, Loss 0.7243, Time 15.4s
+time:  16.265621423721313
+iterations:  438
+cpu
+Step 100, Loss 0.8236, Time 15.3s
+time:  16.133384704589844
+iterations:  439
+cpu
+Step 100, Loss 0.6979, Time 15.3s
+time:  16.051042556762695
+iterations:  440
+cpu
+Step 100, Loss 0.7350, Time 15.3s
+time:  16.08542537689209
+iterations:  441
+cpu
+Step 100, Loss 0.8399, Time 15.2s
+time:  16.036264896392822
+iterations:  442
+cpu
+Step 100, Loss 0.7382, Time 15.3s
+time:  16.125455617904663
+iterations:  443
+cpu
+Step 100, Loss 0.7822, Time 15.2s
+time:  16.023289680480957
+iterations:  444
+cpu
+Step 100, Loss 0.7955, Time 15.7s
+time:  16.50218963623047
+iterations:  445
+cpu
+Step 100, Loss 0.7745, Time 15.3s
+time:  16.10691809654236
+iterations:  446
+cpu
+Step 100, Loss 0.7545, Time 15.4s
+time:  16.23627519607544
+iterations:  447
+cpu
+Step 100, Loss 0.7530, Time 15.3s
+time:  16.16483473777771
+iterations:  448
+cpu
+Step 100, Loss 0.8043, Time 15.3s
+time:  16.131721258163452
+iterations:  449
+cpu
+Step 100, Loss 0.7823, Time 15.4s
+time:  16.23920226097107
+iterations:  450
+cpu
+Step 100, Loss 1.0028, Time 15.4s
+time:  16.247499704360962
+iterations:  451
+cpu
+Step 100, Loss 0.7487, Time 15.4s
+time:  16.24626612663269
+iterations:  452
+cpu
+Step 100, Loss 0.7677, Time 15.4s
+time:  16.19882106781006
+iterations:  453
+cpu
+Step 100, Loss 0.7900, Time 15.4s
+time:  16.228569746017456
+iterations:  454
+cpu
+Step 100, Loss 0.7551, Time 15.4s
+time:  16.21000599861145
+iterations:  455
+cpu
+Step 100, Loss 0.7609, Time 15.5s
+time:  16.310630321502686
+iterations:  456
+cpu
+Step 100, Loss 0.7113, Time 15.3s
+time:  16.19512677192688
+iterations:  457
+cpu
+Step 100, Loss 0.7279, Time 15.3s
+time:  16.148260831832886
+iterations:  458
+cpu
+Step 100, Loss 0.7259, Time 15.3s
+time:  16.172343254089355
+iterations:  459
+cpu
+Step 100, Loss 0.8098, Time 15.4s
+time:  16.1991229057312
+iterations:  460
+cpu
+Step 100, Loss 0.7976, Time 15.4s
+time:  16.2132670879364
+iterations:  461
+cpu
+Step 100, Loss 0.7661, Time 15.3s
+time:  16.175952434539795
+iterations:  462
+cpu
+Step 100, Loss 0.6803, Time 15.3s
+time:  16.190778970718384
+iterations:  463
+cpu
+Step 100, Loss 0.8249, Time 15.4s
+time:  16.187570810317993
+iterations:  464
+cpu
+Step 100, Loss 0.7942, Time 15.3s
+time:  16.19723081588745
+iterations:  465
+cpu
+Step 100, Loss 0.7391, Time 15.4s
+time:  16.289458990097046
+iterations:  466
+cpu
+Step 100, Loss 0.8307, Time 15.3s
+time:  16.159583806991577
+iterations:  467
+cpu
+Step 100, Loss 0.6893, Time 15.4s
+time:  16.217285871505737
+iterations:  468
+cpu
+Step 100, Loss 0.6333, Time 15.3s
+time:  16.19435739517212
+iterations:  469
+cpu
+Step 100, Loss 0.8896, Time 15.4s
+time:  16.223123788833618
+iterations:  470
+cpu
+Step 100, Loss 0.7734, Time 15.3s
+time:  16.167572498321533
+iterations:  471
+cpu
+Step 100, Loss 0.7185, Time 15.3s
+time:  16.178808450698853
+iterations:  472
+cpu
+Step 100, Loss 0.7038, Time 15.3s
+time:  16.150522470474243
+iterations:  473
+cpu
+Step 100, Loss 0.7882, Time 15.3s
+time:  16.201107263565063
+iterations:  474
+cpu
+Step 100, Loss 0.7299, Time 15.4s
+time:  16.2561776638031
+iterations:  475
+cpu
+Step 100, Loss 0.8040, Time 15.3s
+time:  16.15408182144165
+iterations:  476
+cpu
+Step 100, Loss 0.7565, Time 15.4s
+time:  16.252418279647827
+iterations:  477
+cpu
+Step 100, Loss 0.8749, Time 15.4s
+time:  16.228674173355103
+iterations:  478
+cpu
+Step 100, Loss 0.8742, Time 16.1s
+time:  16.933812141418457
+iterations:  479
+cpu
+Step 100, Loss 0.8719, Time 15.2s
+time:  16.118536710739136
+iterations:  480
+cpu
+Step 100, Loss 0.8066, Time 15.2s
+time:  16.11653733253479
+iterations:  481
+cpu
+Step 100, Loss 0.7931, Time 15.3s
+time:  16.18472123146057
+iterations:  482
+cpu
+Step 100, Loss 0.6868, Time 15.3s
+time:  16.15390181541443
+iterations:  483
+cpu
+Step 100, Loss 0.8585, Time 15.3s
+time:  16.188029050827026
+iterations:  484
+cpu
+Step 100, Loss 0.7202, Time 15.3s
+time:  16.10716962814331
+iterations:  485
+cpu
+Step 100, Loss 0.7413, Time 15.3s
+time:  16.129807949066162
+iterations:  486
+cpu
+Step 100, Loss 0.7619, Time 15.3s
+time:  16.145966291427612
+iterations:  487
+cpu
+Step 100, Loss 0.7920, Time 15.3s
+time:  16.087496757507324
+iterations:  488
+cpu
+Step 100, Loss 0.9539, Time 15.4s
+time:  16.29344630241394
+iterations:  489
+cpu
+Step 100, Loss 0.8907, Time 15.4s
+time:  16.23468279838562
+iterations:  490
+cpu
+Step 100, Loss 0.7203, Time 15.4s
+time:  16.1838960647583
+iterations:  491
+cpu
+Step 100, Loss 0.7912, Time 15.4s
+time:  16.232564687728882
+iterations:  492
+cpu
+Step 100, Loss 0.7242, Time 15.4s
+time:  16.3173725605011
+iterations:  493
+cpu
+Step 100, Loss 0.8177, Time 15.4s
+time:  16.205614805221558
+iterations:  494
+cpu
+Step 100, Loss 0.7693, Time 15.3s
+time:  16.2076256275177
+iterations:  495
+cpu
+Step 100, Loss 0.7585, Time 15.4s
+time:  16.265171766281128
+iterations:  496
+cpu
+Step 100, Loss 0.7321, Time 15.7s
+time:  16.52405047416687
+iterations:  497
+cpu
+Step 100, Loss 0.7997, Time 15.5s
+time:  16.411417961120605
+iterations:  498
+cpu
+Step 100, Loss 0.8042, Time 15.3s
+time:  16.21532392501831
+iterations:  499
+cpu
+Step 100, Loss 0.7239, Time 15.4s
+time:  16.20423150062561
+iterations:  500
+cpu
+Step 100, Loss 0.8606, Time 15.3s
+time:  16.186123609542847
+iterations:  501
+cpu
+Step 100, Loss 0.7212, Time 15.3s
+time:  16.22528100013733
+iterations:  502
+cpu
+Step 100, Loss 0.8041, Time 15.3s
+time:  16.118337631225586
+iterations:  503
+cpu
+Step 100, Loss 0.7122, Time 15.3s
+time:  16.217365264892578
+iterations:  504
+cpu
+Step 100, Loss 0.8789, Time 15.4s
+time:  16.28897714614868
+iterations:  505
+cpu
+Step 100, Loss 0.7958, Time 15.4s
+time:  16.216235160827637
+iterations:  506
+cpu
+Step 100, Loss 0.8306, Time 15.5s
+time:  16.366379499435425
+iterations:  507
+cpu
+Step 100, Loss 0.7605, Time 15.3s
+time:  16.192493677139282
+iterations:  508
+cpu
+Step 100, Loss 0.7653, Time 15.6s
+time:  16.432491064071655
+iterations:  509
+cpu
+Step 100, Loss 1.0106, Time 15.3s
+time:  16.177444458007812
+iterations:  510
+cpu
+Step 100, Loss 0.8283, Time 15.3s
+time:  16.20820164680481
+iterations:  511
+cpu
+Step 100, Loss 0.8035, Time 15.5s
+time:  16.39296817779541
+iterations:  512
+cpu
+Step 100, Loss 0.7566, Time 15.4s
+time:  16.312219381332397
+iterations:  513
+cpu
+Step 100, Loss 0.7941, Time 15.5s
+time:  16.366193532943726
+iterations:  514
+cpu
+Step 100, Loss 0.7408, Time 15.5s
+time:  16.357694387435913
+iterations:  515
+cpu
+Step 100, Loss 0.8214, Time 15.6s
+time:  16.547276973724365
+iterations:  516
+cpu
+Step 100, Loss 0.7190, Time 15.6s
+time:  16.511271238327026
+iterations:  517
+cpu
+Step 100, Loss 0.8449, Time 15.5s
+time:  16.320449113845825
+iterations:  518
+cpu
+Step 100, Loss 0.7589, Time 15.5s
+time:  16.39066791534424
+iterations:  519
+cpu
+Step 100, Loss 0.8594, Time 15.5s
+time:  16.362234115600586
+iterations:  520
+cpu
+Step 100, Loss 0.7643, Time 15.5s
+time:  16.340848684310913
+iterations:  521
+cpu
+Step 100, Loss 0.7947, Time 16.1s
+time:  17.030407905578613
+iterations:  522
+cpu
+Step 100, Loss 0.7415, Time 16.3s
+time:  17.25054121017456
+iterations:  523
+cpu
+Step 100, Loss 0.7419, Time 15.2s
+time:  16.073257207870483
+iterations:  524
+cpu
+Step 100, Loss 0.8054, Time 15.3s
+time:  16.232271432876587
+iterations:  525
+cpu
+Step 100, Loss 0.6809, Time 15.2s
+time:  16.105705976486206
+iterations:  526
+cpu
+Step 100, Loss 1.0751, Time 15.2s
+time:  16.062959671020508
+iterations:  527
+cpu
+Step 100, Loss 0.8055, Time 15.2s
+time:  16.111990451812744
+iterations:  528
+cpu
+Step 100, Loss 0.8122, Time 15.2s
+time:  16.114871978759766
+iterations:  529
+cpu
+Step 100, Loss 0.7686, Time 15.3s
+time:  16.189324140548706
+iterations:  530
+cpu
+Step 100, Loss 0.7040, Time 15.2s
+time:  16.124858617782593
+iterations:  531
+cpu
+Step 100, Loss 0.8349, Time 15.2s
+time:  16.126866102218628
+iterations:  532
+cpu
+Step 100, Loss 0.7223, Time 15.2s
+time:  16.089709520339966
+iterations:  533
+cpu
+Step 100, Loss 0.6950, Time 15.2s
+time:  16.10633873939514
+iterations:  534
+cpu
+Step 100, Loss 0.9050, Time 15.2s
+time:  16.15996503829956
+iterations:  535
+cpu
+Step 100, Loss 0.7194, Time 15.1s
+time:  16.015496015548706
+iterations:  536
+cpu
+Step 100, Loss 0.6860, Time 15.1s
+time:  16.074283361434937
+iterations:  537
+cpu
+Step 100, Loss 0.7454, Time 15.2s
+time:  16.11621332168579
+iterations:  538
+cpu
+Step 100, Loss 0.7493, Time 15.3s
+time:  16.142417669296265
+iterations:  539
+cpu
+Step 100, Loss 0.6934, Time 15.2s
+time:  16.124653577804565
+iterations:  540
+cpu
+Step 100, Loss 0.7437, Time 15.2s
+time:  16.138633966445923
+iterations:  541
+cpu
+Step 100, Loss 0.8041, Time 15.2s
+time:  16.1044602394104
+iterations:  542
+cpu
+Step 100, Loss 0.7468, Time 15.2s
+time:  16.152047157287598
+iterations:  543
+cpu
+Step 100, Loss 0.7293, Time 15.3s
+time:  16.184418439865112
+iterations:  544
+cpu
+Step 100, Loss 0.7305, Time 15.2s
+time:  16.102174758911133
+iterations:  545
+cpu
+Step 100, Loss 0.7421, Time 15.2s
+time:  16.17961812019348
+iterations:  546
+cpu
+Step 100, Loss 0.7704, Time 15.2s
+time:  16.162519693374634
+iterations:  547
+cpu
+Step 100, Loss 2.2954, Time 15.3s
+time:  16.20280408859253
+iterations:  548
+cpu
+Step 100, Loss 0.7871, Time 15.3s
+time:  16.21923804283142
+iterations:  549
+cpu
+Step 100, Loss 0.7951, Time 15.2s
+time:  16.189022302627563
+iterations:  550
+cpu
+Step 100, Loss 0.7044, Time 15.3s
+time:  16.154781818389893
+iterations:  551
+cpu
+Step 100, Loss 0.8373, Time 15.3s
+time:  16.22795033454895
+iterations:  552
+cpu
+Step 100, Loss 0.7713, Time 15.4s
+time:  16.301748275756836
+iterations:  553
+cpu
+Step 100, Loss 0.7296, Time 15.2s
+time:  16.131532430648804
+iterations:  554
+cpu
+Step 100, Loss 0.7887, Time 15.3s
+time:  16.21054482460022
+iterations:  555
+cpu
+Step 100, Loss 0.8382, Time 15.2s
+time:  16.13893175125122
+iterations:  556
+cpu
+Step 100, Loss 0.7510, Time 15.2s
+time:  16.11048698425293
+iterations:  557
+cpu
+Step 100, Loss 0.7216, Time 15.3s
+time:  16.22000503540039
+iterations:  558
+cpu
+Step 100, Loss 0.8111, Time 15.2s
+time:  16.170183897018433
+iterations:  559
+cpu
+Step 100, Loss 0.8668, Time 15.2s
+time:  16.128517627716064
+iterations:  560
+cpu
+Step 100, Loss 0.7109, Time 15.2s
+time:  16.16897940635681
+iterations:  561
+cpu
+Step 100, Loss 0.7306, Time 15.3s
+time:  16.213838577270508
+iterations:  562
+cpu
+Step 100, Loss 0.7805, Time 15.2s
+time:  16.112579822540283
+iterations:  563
+cpu
+Step 100, Loss 0.8885, Time 15.2s
+time:  16.144739627838135
+iterations:  564
+cpu
+Step 100, Loss 0.7288, Time 15.2s
+time:  16.127344131469727
+iterations:  565
+cpu
+Step 100, Loss 0.7346, Time 15.1s
+time:  16.053094387054443
+iterations:  566
+cpu
+Step 100, Loss 0.7669, Time 15.3s
+time:  16.241138458251953
+iterations:  567
+cpu
+Step 100, Loss 0.7122, Time 15.2s
+time:  16.196136951446533
+iterations:  568
+cpu
+Step 100, Loss 0.7116, Time 15.2s
+time:  16.124961376190186
+iterations:  569
+cpu
+Step 100, Loss 0.7372, Time 15.2s
+time:  16.14964509010315
+iterations:  570
+cpu
+Step 100, Loss 0.6745, Time 15.3s
+time:  16.27110505104065
+iterations:  571
+cpu
+Step 100, Loss 1.6334, Time 15.2s
+time:  16.103487014770508
+iterations:  572
+cpu
+Step 100, Loss 0.8091, Time 15.2s
+time:  16.194008111953735
+iterations:  573
+cpu
+Step 100, Loss 0.7144, Time 15.2s
+time:  16.181074142456055
+iterations:  574
+cpu
+Step 100, Loss 0.8144, Time 15.2s
+time:  16.158922910690308
+iterations:  575
+cpu
+Step 100, Loss 0.7164, Time 15.3s
+time:  16.323541164398193
+iterations:  576
+cpu
+Step 100, Loss 0.7549, Time 15.3s
+time:  16.235583782196045
+iterations:  577
+cpu
+Step 100, Loss 0.7326, Time 15.3s
+time:  16.19771099090576
+iterations:  578
+cpu
+Step 100, Loss 0.7084, Time 15.4s
+time:  16.347808361053467
+iterations:  579
+cpu
+Step 100, Loss 0.7541, Time 15.3s
+time:  16.273030519485474
+iterations:  580
+cpu
+Step 100, Loss 0.7358, Time 15.4s
+time:  16.31200098991394
+iterations:  581
+cpu
+Step 100, Loss 0.8557, Time 15.3s
+time:  16.290688037872314
+iterations:  582
+cpu
+Step 100, Loss 0.7077, Time 15.3s
+time:  16.321289777755737
+iterations:  583
+cpu
+Step 100, Loss 0.8536, Time 15.3s
+time:  16.279725074768066
+iterations:  584
+cpu
+Step 100, Loss 0.8020, Time 15.4s
+time:  16.385384798049927
+iterations:  585
+cpu
+Step 100, Loss 0.7405, Time 15.3s
+time:  16.30851411819458
+iterations:  586
+cpu
+Step 100, Loss 0.8324, Time 15.4s
+time:  16.29592800140381
+iterations:  587
+cpu
+Step 100, Loss 0.7987, Time 15.4s
+time:  16.38725185394287
+iterations:  588
+cpu
+Step 100, Loss 0.8388, Time 15.4s
+time:  16.35878348350525
+iterations:  589
+cpu
+Step 100, Loss 0.8060, Time 15.5s
+time:  16.406701803207397
+iterations:  590
+cpu
+Step 100, Loss 0.9849, Time 15.3s
+time:  16.313156366348267
+iterations:  591
+cpu
+Step 100, Loss 1.0693, Time 15.4s
+time:  16.4042809009552
+iterations:  592
+cpu
+Step 100, Loss 0.8186, Time 15.3s
+time:  16.221185207366943
+iterations:  593
+cpu
+Step 100, Loss 0.7127, Time 15.3s
+time:  16.250601530075073
+iterations:  594
+cpu
+Step 100, Loss 0.7632, Time 15.2s
+time:  16.19777798652649
+iterations:  595
+cpu
+Step 100, Loss 0.7763, Time 15.3s
+time:  16.252163887023926
+iterations:  596
+cpu
+Step 100, Loss 0.7649, Time 15.3s
+time:  16.302577257156372
+iterations:  597
+cpu
+Step 100, Loss 0.8167, Time 15.3s
+time:  16.271392345428467
+iterations:  598
+cpu
+Step 100, Loss 0.7557, Time 15.7s
+time:  16.602083683013916
+iterations:  599
+cpu
+Step 100, Loss 0.7578, Time 15.7s
+time:  16.658540725708008
+iterations:  600
+cpu
+Step 100, Loss 0.7425, Time 15.6s
+time:  16.62100577354431
+iterations:  601
+cpu
+Step 100, Loss 0.6930, Time 15.6s
+time:  16.5954430103302
+iterations:  602
+cpu
+Step 100, Loss 0.7764, Time 15.7s
+time:  16.66956353187561
+iterations:  603
+cpu
+Step 100, Loss 0.7729, Time 15.8s
+time:  16.76270031929016
+iterations:  604
+cpu
+Step 100, Loss 0.7248, Time 15.7s
+time:  16.623509407043457
+iterations:  605
+cpu
+Step 100, Loss 0.8179, Time 15.7s
+time:  16.66250777244568
+iterations:  606
+cpu
+Step 100, Loss 0.7948, Time 15.6s
+time:  16.654983282089233
+iterations:  607
+cpu
+Step 100, Loss 0.8737, Time 15.8s
+time:  16.732714414596558
+iterations:  608
+cpu
+Step 100, Loss 0.8036, Time 15.6s
+time:  16.653804302215576
+iterations:  609
+cpu
+Step 100, Loss 0.7297, Time 15.5s
+time:  16.525249481201172
+iterations:  610
+cpu
+Step 100, Loss 0.8096, Time 15.5s
+time:  16.493469715118408
+iterations:  611
+cpu
+Step 100, Loss 0.7884, Time 15.5s
+time:  16.544690370559692
+iterations:  612
+cpu
+Step 100, Loss 0.9078, Time 15.8s
+time:  16.810837030410767
+iterations:  613
+cpu
+Step 100, Loss 0.7561, Time 15.6s
+time:  16.530455112457275
+iterations:  614
+cpu
+Step 100, Loss 0.8419, Time 15.5s
+time:  16.56647038459778
+iterations:  615
+cpu
+Step 100, Loss 0.7326, Time 15.5s
+time:  16.55697727203369
+iterations:  616
+cpu
+Step 100, Loss 0.8012, Time 15.6s
+time:  16.608223915100098
+iterations:  617
+cpu
+Step 100, Loss 0.7873, Time 15.6s
+time:  16.59521174430847
+iterations:  618
+cpu
+Step 100, Loss 1.1760, Time 15.5s
+time:  16.54601764678955
+iterations:  619
+cpu
+Step 100, Loss 0.7968, Time 15.5s
+time:  16.50704598426819
+iterations:  620
+cpu
+Step 100, Loss 0.8001, Time 15.5s
+time:  16.509522914886475
+iterations:  621
+cpu
+Step 100, Loss 0.6865, Time 15.6s
+time:  16.63538932800293
+iterations:  622
+cpu
+Step 100, Loss 0.7375, Time 15.5s
+time:  16.50068163871765
+iterations:  623
+cpu
+Step 100, Loss 0.7360, Time 15.6s
+time:  16.63800311088562
+iterations:  624
+cpu
+Step 100, Loss 0.7506, Time 15.6s
+time:  16.62604570388794
+iterations:  625
+cpu
+Step 100, Loss 0.7071, Time 15.6s
+time:  16.557120084762573
+iterations:  626
+cpu
+Step 100, Loss 0.8405, Time 15.6s
+time:  16.6531240940094
+iterations:  627
+cpu
+Step 100, Loss 0.9049, Time 15.6s
+time:  16.60956335067749
+iterations:  628
+cpu
+Step 100, Loss 0.7285, Time 15.6s
+time:  16.5455379486084
+iterations:  629
+cpu
+Step 100, Loss 0.7968, Time 15.6s
+time:  16.59406852722168
+iterations:  630
+cpu
+Step 100, Loss 0.8023, Time 15.6s
+time:  16.67456817626953
+iterations:  631
+cpu
+Step 100, Loss 0.7433, Time 15.5s
+time:  16.51849913597107
+iterations:  632
+cpu
+Step 100, Loss 0.9087, Time 15.5s
+time:  16.560048580169678
+iterations:  633
+cpu
+Step 100, Loss 0.7159, Time 15.5s
+time:  16.535842180252075
+iterations:  634
+cpu
+Step 100, Loss 0.7943, Time 15.5s
+time:  16.522167444229126
+iterations:  635
+cpu
+Step 100, Loss 0.7133, Time 15.6s
+time:  16.648547172546387
+iterations:  636
+cpu
+Step 100, Loss 0.7500, Time 15.6s
+time:  16.600471258163452
+iterations:  637
+cpu
+Step 100, Loss 0.7218, Time 15.6s
+time:  16.5731258392334
+iterations:  638
+cpu
+Step 100, Loss 0.7677, Time 15.6s
+time:  16.63071084022522
+iterations:  639
+cpu
+Step 100, Loss 0.7856, Time 15.7s
+time:  16.715365409851074
+iterations:  640
+cpu
+Step 100, Loss 0.7250, Time 15.6s
+time:  16.56652307510376
+iterations:  641
+cpu
+Step 100, Loss 0.7679, Time 15.6s
+time:  16.617923736572266
+iterations:  642
+cpu
+Step 100, Loss 0.7438, Time 15.7s
+time:  16.776464462280273
+iterations:  643
+cpu
+Step 100, Loss 0.7028, Time 15.7s
+time:  16.86690068244934
+iterations:  644
+cpu
+Step 100, Loss 0.8159, Time 15.8s
+time:  16.89661741256714
+iterations:  645
+cpu
+Step 100, Loss 0.8340, Time 15.6s
+time:  16.709255695343018
+iterations:  646
+cpu
+Step 100, Loss 0.7276, Time 15.7s
+time:  16.680828094482422
+iterations:  647
+cpu
+Step 100, Loss 1.2599, Time 15.6s
+time:  16.7010498046875
+iterations:  648
+cpu
+Step 100, Loss 0.6513, Time 15.7s
+time:  16.743675231933594
+iterations:  649
+cpu
+Step 100, Loss 0.8206, Time 15.8s
+time:  16.826996564865112
+iterations:  650
+cpu
+Step 100, Loss 0.8089, Time 15.7s
+time:  16.82307195663452
+iterations:  651
+cpu
+Step 100, Loss 0.8647, Time 15.7s
+time:  16.81847643852234
+iterations:  652
+cpu
+Step 100, Loss 0.8321, Time 15.7s
+time:  16.72914481163025
+iterations:  653
+cpu
+Step 100, Loss 1.1842, Time 15.8s
+time:  16.88519263267517
+iterations:  654
+cpu
+Step 100, Loss 0.7229, Time 15.7s
+time:  16.73906183242798
+iterations:  655
+cpu
+Step 100, Loss 0.7471, Time 15.7s
+time:  16.707252025604248
+iterations:  656
+cpu
+Step 100, Loss 0.6373, Time 15.7s
+time:  16.823554515838623
+iterations:  657
+cpu
+Step 100, Loss 0.7545, Time 15.7s
+time:  16.768911600112915
+iterations:  658
+cpu
+Step 100, Loss 0.7656, Time 15.8s
+time:  16.834168672561646
+iterations:  659
+cpu
+Step 100, Loss 0.8926, Time 15.7s
+time:  16.7941255569458
+iterations:  660
+cpu
+Step 100, Loss 0.6863, Time 15.6s
+time:  16.71448516845703
+iterations:  661
+cpu
+Step 100, Loss 0.8266, Time 15.6s
+time:  16.606132745742798
+iterations:  662
+cpu
+Step 100, Loss 0.7801, Time 15.6s
+time:  16.734153270721436
+iterations:  663
+cpu
+Step 100, Loss 0.7142, Time 15.6s
+time:  16.683496713638306
+iterations:  664
+cpu
+Step 100, Loss 0.7914, Time 15.6s
+time:  16.625431537628174
+iterations:  665
+cpu
+Step 100, Loss 0.7839, Time 15.6s
+time:  16.683481216430664
+iterations:  666
+cpu
+Step 100, Loss 0.7051, Time 15.6s
+time:  16.669097661972046
+iterations:  667
+cpu
+Step 100, Loss 0.8569, Time 15.7s
+time:  16.743932962417603
+iterations:  668
+cpu
+Step 100, Loss 0.8514, Time 15.6s
+time:  16.66149878501892
+iterations:  669
+cpu
+Step 100, Loss 0.7897, Time 15.6s
+time:  16.66307830810547
+iterations:  670
+cpu
+Step 100, Loss 0.7698, Time 15.6s
+time:  16.635305643081665
+iterations:  671
+cpu
+Step 100, Loss 0.7391, Time 15.6s
+time:  16.66260051727295
+iterations:  672
+cpu
+Step 100, Loss 0.8208, Time 15.7s
+time:  16.76479434967041
+iterations:  673
+cpu
+Step 100, Loss 0.7072, Time 15.6s
+time:  16.587465047836304
+iterations:  674
+cpu
+Step 100, Loss 0.7927, Time 15.6s
+time:  16.658454656600952
+iterations:  675
+cpu
+Step 100, Loss 0.8471, Time 15.6s
+time:  16.663723468780518
+iterations:  676
+cpu
+Step 100, Loss 0.9179, Time 15.7s
+time:  16.699042320251465
+iterations:  677
+cpu
+Step 100, Loss 0.8802, Time 15.6s
+time:  16.659865617752075
+iterations:  678
+cpu
+Step 100, Loss 0.7811, Time 15.6s
+time:  16.648741483688354
+iterations:  679
+cpu
+Step 100, Loss 0.7033, Time 15.6s
+time:  16.635282039642334
+iterations:  680
+cpu
+Step 100, Loss 0.8410, Time 15.6s
+time:  16.689635515213013
+iterations:  681
+cpu
+Step 100, Loss 0.8645, Time 15.7s
+time:  16.785733222961426
+iterations:  682
+cpu
+Step 100, Loss 0.7834, Time 15.6s
+time:  16.602259874343872
+iterations:  683
+cpu
+Step 100, Loss 0.9572, Time 15.6s
+time:  16.688847064971924
+iterations:  684
+cpu
+Step 100, Loss 0.7795, Time 15.6s
+time:  16.670690059661865
+iterations:  685
+cpu
+Step 100, Loss 0.8357, Time 15.7s
+time:  16.699891090393066
+iterations:  686
+cpu
+Step 100, Loss 0.7218, Time 15.6s
+time:  16.68870234489441
+iterations:  687
+cpu
+Step 100, Loss 0.7398, Time 15.6s
+time:  16.66137456893921
+iterations:  688
+cpu
+Step 100, Loss 0.7733, Time 15.6s
+time:  16.646512746810913
+iterations:  689
+cpu
+Step 100, Loss 0.7395, Time 15.6s
+time:  16.708683252334595
+iterations:  690
+cpu
+Step 100, Loss 0.7637, Time 15.7s
+time:  16.828952074050903
+iterations:  691
+cpu
+Step 100, Loss 0.7291, Time 15.6s
+time:  16.65473771095276
+iterations:  692
+cpu
+Step 100, Loss 0.7840, Time 15.6s
+time:  16.720056533813477
+iterations:  693
+cpu
+Step 100, Loss 0.7267, Time 15.6s
+time:  16.716504335403442
+iterations:  694
+cpu
+Step 100, Loss 0.8539, Time 15.6s
+time:  16.635949850082397
+iterations:  695
+cpu
+Step 100, Loss 0.7348, Time 15.7s
+time:  16.857320070266724
+iterations:  696
+cpu
+Step 100, Loss 0.7641, Time 15.7s
+time:  16.773716688156128
+iterations:  697
+cpu
+Step 100, Loss 0.7450, Time 15.7s
+time:  16.75640344619751
+iterations:  698
+cpu
+Step 100, Loss 0.8364, Time 15.5s
+time:  16.6581928730011
+iterations:  699
+cpu
+Step 100, Loss 0.6554, Time 15.8s
+time:  16.922109127044678

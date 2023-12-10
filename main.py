@@ -90,7 +90,7 @@ def get_weight_trajectories(tasks,mask, save_name):
 
 mask = np.ones((80,80))
 
-save_name = "/N/project/networkRNNs/loss_lndscape_data/four_tasks_no_modules.npz"
+save_name = "/N/project/networkRNNs/loss_lndscape_data/four_tasks_no_modules2.npz"
 
 total_weight_traj = get_weight_trajectories(tasks,mask,save_name)
 
